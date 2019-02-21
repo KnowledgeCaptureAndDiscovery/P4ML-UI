@@ -1,0 +1,14 @@
+
+{
+        "problem_schema": "dsbox-dataNew1-18/32_wikiqa/TRAIN/problem_TRAIN/problemDoc.json",
+        "problem_root": "dsbox-dataNew1-18/32_wikiqa/TRAIN/problem_TRAIN",
+        "dataset_schema": "dsbox-dataNew1-18/32_wikiqa/TRAIN/dataset_TRAIN/datasetDoc.json",
+        "training_data_root": "dsbox-dataNew1-18/32_wikiqa/TRAIN/dataset_TRAIN",
+        "pipeline_logs_root": "dsbox-dataNew1-18/executables/32_wikiqa/logs",
+        "executables_root": "dsbox-dataNew1-18/executables/32_wikiqa/executables",
+        "temp_storage_root": "dsbox-dataNew1-18/executables/32_wikiqa/temp",
+        "timeout": 100,
+        "cpus"  : "10",
+        "ram"   : "16Gi"
+}
+     

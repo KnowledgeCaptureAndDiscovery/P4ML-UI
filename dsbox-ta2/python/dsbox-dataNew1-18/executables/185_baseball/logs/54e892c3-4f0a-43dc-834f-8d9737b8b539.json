@@ -1,0 +1,10 @@
+{
+    "name": "54e892c3-4f0a-43dc-834f-8d9737b8b539",
+    "pipeline_rank": 2,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.tree.tree.DecisionTreeClassifier"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

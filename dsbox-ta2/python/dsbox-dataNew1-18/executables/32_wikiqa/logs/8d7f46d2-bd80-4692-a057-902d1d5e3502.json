@@ -1,0 +1,10 @@
+{
+    "name": "8d7f46d2-bd80-4692-a057-902d1d5e3502",
+    "pipeline_rank": 3,
+    "primitives": [
+        "sklearn.feature_extraction.text.CountVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.tree.tree.ExtraTreeClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

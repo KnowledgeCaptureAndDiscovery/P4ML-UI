@@ -1,0 +1,10 @@
+{
+    "name": "6099f599-5a6f-43b2-800c-3465a3994edd",
+    "pipeline_rank": 9,
+    "primitives": [
+        "sklearn.feature_extraction.text.TfidfVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.discriminant_analysis.LinearDiscriminantAnalysis"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

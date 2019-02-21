@@ -1,0 +1,113 @@
+{
+    "id": "755d32d4-d06c-3cb3-8cc8-d9761f4efcaf",
+    "name": "spider.dimensionality_reduction.pcp_ialm.PCP_IALM",
+    "common_name": "PCP IALM",
+    "team": "spider",
+    "description": "Dimensionality reduction primitive that uses Robust Principal Component Analysis (RPCA) via Principal Component Pursuit (PCP) with the Inexact Augmented Lagrange Multipliers (IALM) method.",
+    "languages": ["python2.7"],
+    "library": "spider",
+    "version": "1.1",
+    "schema_version": "1.0",
+    "is_class": true,
+    "parameters":
+    [
+        {
+            "name": "name",
+            "description": "Name of the primitive",
+            "type": "String",
+            "optional": true,
+            "default": "PCP_IALM",
+            "is_hyperparameter": false
+        },
+		{
+            "name": "lamb",
+            "description": "Regularization parameter for sparse component",
+            "type": "Float",
+            "optional": true,
+            "default": "-1",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "mu",
+            "description": "Penalty parameter in Lagrangian function for noise",
+            "type": "Bool",
+            "optional": true,
+            "default": "-1",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "rho",
+            "description": "Constant used to update mu in each iteration",
+            "type": "Float",
+            "optional": true,
+            "default": "1.5",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "epsilon",
+            "description": "Termination constant",
+            "type": "Float",
+            "optional": true,
+            "default": "1e-7",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "max_iter",
+            "description": "Maximum number of iterations",
+            "type": "Int",
+            "optional": true,
+            "default": "1000",
+            "is_hyperparameter": true
+        }
+    ],
+    "methods_available":
+    [
+        {
+            "id": "spider.dimensionality_reduction.pcp_ialm.PCP_IALM.produce",
+            "name": "rpca",
+            "description": "RPCA via Principal Component Pursuit (PCP) with the Inexact Augmented Lagrange Multiplier (IALM) method",
+            "parameters":
+            [
+                {
+                    "name": "A",
+                    "description": "Data matrix",
+                    "type": "np.array, np.matrix",
+                    "optional": false,
+                    "is_hyperparameter": false
+                }
+            ],
+            "returns":
+            {
+                "name": "W",
+                "description": "Low-rank component of data matrix",
+                "type": "np.array"
+            }
+        }
+    ],
+    "algorithm_type": ["Transformation"],
+    "task_type": ["Feature extraction"],
+    "learning_type": "Unsupervised learning",
+    "input_type": "DENSE",
+    "output_type": "FEATURES",
+    "is_deterministic": false,
+    "handles_classification": false,
+    "handles_regression": false,
+    "handles_multiclass": false,
+    "handles_multilabel": false,
+    "build":
+    {
+        "type": "pip",
+        "cmd": "pip install spider"
+    },
+    "compute_resources": {
+        "sample_size": [],
+        "sample_unit": [],
+        "disk_per_node": [],
+        "expected_running_time": [],
+        "gpus_per_node": [],
+        "cores_per_node": [],
+        "mem_per_gpu": [],
+        "mem_per_node": [],
+        "num_nodes": []
+    }
+}

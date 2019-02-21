@@ -1,0 +1,10 @@
+{
+    "name": "6c018424-7856-4f01-80b1-7c14591b30d7",
+    "pipeline_rank": 2,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.linear_model.logistic.LogisticRegression"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

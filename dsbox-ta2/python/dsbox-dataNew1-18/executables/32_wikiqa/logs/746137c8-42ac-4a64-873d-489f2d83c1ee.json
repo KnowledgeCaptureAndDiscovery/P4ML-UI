@@ -1,0 +1,10 @@
+{
+    "name": "746137c8-42ac-4a64-873d-489f2d83c1ee",
+    "pipeline_rank": 2,
+    "primitives": [
+        "corex_text.CorexText",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.ensemble.bagging.BaggingClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

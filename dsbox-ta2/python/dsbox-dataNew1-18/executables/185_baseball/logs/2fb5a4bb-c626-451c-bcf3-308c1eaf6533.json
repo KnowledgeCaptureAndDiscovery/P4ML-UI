@@ -1,0 +1,10 @@
+{
+    "name": "2fb5a4bb-c626-451c-bcf3-308c1eaf6533",
+    "pipeline_rank": 3,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.svm.classes.LinearSVC"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

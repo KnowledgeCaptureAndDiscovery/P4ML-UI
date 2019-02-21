@@ -1,0 +1,10 @@
+{
+    "name": "9c61670c-fc66-41a7-aaba-4c629d85e397",
+    "pipeline_rank": 2,
+    "primitives": [
+        "sklearn.preprocessing.Imputer",
+        "sklearn.preprocessing.LabelEncoder",
+        "d3m.primitives.sklearn_wrap.SKLinearDiscriminantAnalysis"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

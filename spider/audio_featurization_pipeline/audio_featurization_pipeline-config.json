@@ -1,0 +1,6 @@
+{
+  "problem_schema":"/data/r_31/problemSchema.json",
+  "dataset_schema":"/data/r_31/data/dataSchema.json",
+  "data_root":"/data/r_31/data/",
+  "output_file":"./audio_featurization_performance.csv"
+}

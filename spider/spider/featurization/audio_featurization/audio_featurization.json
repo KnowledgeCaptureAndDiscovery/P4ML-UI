@@ -1,0 +1,69 @@
+{
+  "id": "2363d81d-7b05-361d-969b-72f3b5070107",
+  "name": "spider.featurization.audio_featurization.AudioFeaturization",
+  "common_name": "AudioFeaturization",
+  "team": "spider",
+  "description": "Converts time series audio data into a vector of features",
+  "languages": ["python2.7"],
+  "library": "spider",
+  "version": "1.1",
+  "schema_version": 1.0,
+  "is_class": true,
+  "tags": [
+    "feature_extraction",
+    "audio"
+  ],
+  "parameters":
+  [
+    {
+      "name": "sampling_rate",
+      "description": "uniform sampling rate of the incoming audio data",
+      "type": "int",
+      "optional": true,
+      "default": "44100",
+      "is_hyperparameter": false
+    },
+    {
+      "name": "frame_length",
+      "description": "duration in seconds that defines the length of the audio processing window",
+      "type": "float",
+      "optional": true,
+      "default": "0.050",
+      "is_hyperparameter": true
+    },
+    {
+      "name": "overlap",
+      "description": "duration in seconds that defines the step size taken along the time series during subsequent processing steps",
+      "type": "float",
+      "optional": true,
+      "default": "0.025",
+      "is_hyperparameter": true
+    }
+  ],
+  "task_type": ["Feature Extraction"],
+  "is_deterministic": true,
+  "handles_classification": false,
+  "handles_regression": false,
+  "handles_multiclass": false,
+  "handles_multilabel": false,
+  "build":
+  [
+    {
+      "type": "pip",
+      "package": "spider"
+    }
+  ],
+  "compute_resources":
+  {
+    "sample_size": [13.6, 63.4, 580.1],
+    "sample_unit": ["MB", "MB", "MB"],
+    "num_nodes": [1, 1, 1],
+    "cores_per_node": [1, 1, 1],
+    "gpus_per_node": [0, 0, 0],
+    "mem_per_node": [0.16, 0.23, 1.11],
+    "disk_per_node": [0, 0, 0],
+    "mem_per_gpu": [0, 0, 0],
+    "expected_running_time": [5.63, 24.08, 221.20]
+  },
+  "interface_type": "featurization"
+}

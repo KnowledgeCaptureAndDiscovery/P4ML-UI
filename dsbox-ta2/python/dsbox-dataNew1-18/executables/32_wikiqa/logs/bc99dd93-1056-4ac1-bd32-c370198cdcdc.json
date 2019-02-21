@@ -1,0 +1,10 @@
+{
+    "name": "bc99dd93-1056-4ac1-bd32-c370198cdcdc",
+    "pipeline_rank": 1,
+    "primitives": [
+        "corex_text.CorexText",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.ensemble.weight_boosting.AdaBoostClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "9fd5c266-3119-4a36-8fa9-ff25fda7e391",
+    "pipeline_rank": 1,
+    "primitives": [
+        "corex_text.CorexText",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.linear_model.logistic.LogisticRegression"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

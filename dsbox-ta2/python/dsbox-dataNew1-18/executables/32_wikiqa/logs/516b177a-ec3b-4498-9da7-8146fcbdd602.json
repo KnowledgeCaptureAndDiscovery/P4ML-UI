@@ -1,0 +1,10 @@
+{
+    "name": "516b177a-ec3b-4498-9da7-8146fcbdd602",
+    "pipeline_rank": 6,
+    "primitives": [
+        "sklearn.feature_extraction.text.TfidfVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.ensemble.bagging.BaggingClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

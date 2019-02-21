@@ -1,0 +1,13 @@
+
+{
+        "include_model":["LinearSVC","LogisticRegression","DecisionTreeClassifier"],
+        "include_feature_extraction":["tfidfVectorizer"],
+        "use_imputation_method":"median",
+        "replace_model":["LogisticRegression"],
+        // "use_specific_parameter_for_model":[{"model": "DecisionTreeClassifier","parameter":}],
+        // "exclude_model":[],
+        "timeout": 50,
+        "cpus"  : "10",
+        "ram"   : "16Gi"
+}
+     

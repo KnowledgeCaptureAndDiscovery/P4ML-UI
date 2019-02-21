@@ -1,0 +1,10 @@
+{
+    "name": "ededc058-3607-4faa-a346-18e14160e4e3",
+    "pipeline_rank": 14,
+    "primitives": [
+        "sklearn.feature_extraction.text.TfidfVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.ensemble.gradient_boosting.GradientBoostingClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

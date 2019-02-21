@@ -1,0 +1,111 @@
+#!/usr/bin/env python2
+
+import os
+from os import path
+
+from sklearn import preprocessing
+import pandas as pd
+import numpy as np
+import json
+
+from scipy.optimize import linear_sum_assignment
+from spider.cluster.kss import KSS
+
+
+def bestLabelMapping(TrueLabels, EstimatedLabels):
+    """
+    This method assigns the best label mapping for the ssc clustering primitives
+    """
+    TrueLabels = np.array(TrueLabels)
+    TrueLabelsSet = [l for l in set(TrueLabels)]
+    EstimatedLabelsSet = [l for l in set(EstimatedLabels)]
+    KTrue = len(TrueLabelsSet)
+    KEstimated = len(EstimatedLabelsSet)
+
+    # construct cost matrix, where CostMatrix[i,j] = number of points with estimated label i
+    # that would be misclassified if estimated label i were to be assigned to true label j
+    CostMatrix = np.zeros((KEstimated, KTrue))
+    for i in range(KEstimated):
+        indices = np.argwhere(EstimatedLabels == EstimatedLabelsSet[i])[:, 0]
+        for j in range(KTrue):
+            CostMatrix[i, j] = len(indices) - len(np.argwhere(TrueLabels[indices] == TrueLabelsSet[j])[:, 0])
+    # compute misclassification rate
+    RowInd, ColInd = linear_sum_assignment(CostMatrix)
+    estimated_label_dict = dict(zip(ColInd, RowInd))
+    return estimated_label_dict
+
+# Example for the documentation of the TA1 pipeline submission process
+#
+# It executes a TA1 pipeline using a image_featurization_pipeline.json file that follows this structure:
+# {
+#   "problem_schema":"path/to/problem_schema.json",
+#   "dataset_schema":"path/to/dataset_schema.json",
+#   "data_root":"path/to/data/root/folder/",
+#   "output_file":"path/to/output/file"
+# }
+
+# Load the json configuration file
+with open("cluster_pipeline-config.json", 'r') as inputFile:
+    jsonCall = json.load(inputFile)
+    inputFile.close()
+
+# Load the json dataset description file
+with open(jsonCall['dataset_schema'], 'r') as inputFile:
+    datasetSchema = json.load(inputFile)
+    inputFile.close()
+
+# Load the input files from the data_root folder path information, replacing missing values with zeros
+dataRoot = jsonCall['data_root']
+trainData = pd.read_csv( path.join(dataRoot, 'trainData.csv.gz'), header=0 ).fillna('0').replace('', '0')
+trainTargets = pd.read_csv( path.join(dataRoot, 'trainTargets.csv.gz'), header=0 ).fillna('0').replace('', '0')
+
+testData = pd.read_csv(path.join(dataRoot, 'testData.csv'), header=0 ).fillna('0').replace('', '0')
+
+# Encode the categorical data in training data
+trainDataCatLabels = []
+trainDataLabelEncoders = dict()
+
+for colDesc in datasetSchema['trainData']['trainData']:
+    if colDesc['varType'] == 'categorical':
+        trainDataCatLabels.append(colDesc['varName'])
+        trainDataLabelEncoders[colDesc['varName']] = preprocessing.LabelEncoder().fit(trainData[colDesc['varName']])
+        trainData[colDesc['varName']] = trainDataLabelEncoders[colDesc['varName']].transform(trainData[colDesc['varName']])
+
+# Encode the categorical data in the test targets, uses the first target of the dataset as a target
+trainTargetsCatLabel = ''
+trainTargetsLabelEncoder = preprocessing.LabelEncoder()
+
+for colDesc in datasetSchema['trainData']['trainTargets']:
+
+    if colDesc['varType'] == 'categorical':
+        trainTargetsCatLabel = colDesc['varName']
+        trainTargetsLabelEncoder = trainTargetsLabelEncoder.fit(trainTargets[colDesc['varName']])
+        trainTargets = trainTargetsLabelEncoder.transform(trainTargets[colDesc['varName']])
+
+    if colDesc['varRole'] == 'target':
+        break
+
+# Encode the testData using the previous label encoders
+for colLabel in trainDataCatLabels:
+    testData[colLabel] = trainDataLabelEncoders[colLabel].transform(testData[colLabel])
+
+train_samples = trainData.shape[0]
+test_samples = testData.shape[0]
+input_data = pd.concat([trainData, testData])
+input_data.drop('d3mIndex', axis=1, inplace=True)
+
+# Instantiate EKSS Primitve
+n_clusters = len(np.unique(trainTargets))
+kss_clustering = KSS(n_clusters=n_clusters)
+cluster_input = (input_data.as_matrix()).astype(np.float64)
+predicted_all = kss_clustering.produce(cluster_input)
+predicted_train = predicted_all[:train_samples]
+predicted_test = predicted_all[:-test_samples]
+label_mapping = bestLabelMapping(predicted_train, trainTargets)
+
+predictedTargets = np.array([label_mapping[v] for v in predicted_test])
+predictedTargets = trainTargetsLabelEncoder.inverse_transform(predictedTargets)
+        
+# Outputs the predicted targets in the location specified in the JSON configuration file
+with open(jsonCall['output_file'], 'w') as outputFile:
+    output = pd.DataFrame(predictedTargets).to_csv(outputFile, index_label='d3mIndex', header=[trainTargetsCatLabel])

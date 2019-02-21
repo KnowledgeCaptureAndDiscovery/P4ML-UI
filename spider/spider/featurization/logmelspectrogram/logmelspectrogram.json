@@ -1,0 +1,73 @@
+{
+  "id": "1e4a39a4-10ee-3d1a-9dc7-24b915f86130",
+  "name": "spider.featurization.logmelspectrogram.LogMelSpectrogram",
+  "common_name": "LogMelSpectrogram",
+  "team": "spider",
+  "description": "Utility for computing audio spectrograms",
+  "languages": ["python2.7"],
+  "library": "spider",
+  "version": "1.1",
+  "schema_version": 1.0,
+  "is_class": true,
+  "parameters":
+  [
+    {
+      "name": "sampling_rate",
+      "description": "Uniform audio sampling rate",
+      "type": "int",
+      "optional": true,
+      "default": "44100",
+      "is_hyperparameter": false
+    },
+    {
+      "name": "mel_bands",
+      "description": "Number of mel frequency filters used to compute the spectrogram",
+      "type": "int",
+      "optional": true,
+      "default": "128",
+      "is_hyperparameter": true
+    },
+    {
+      "name": "n_fft",
+      "description": "length in samples of the FFT window",
+      "type": "int",
+      "optional": true,
+      "default": "1024",
+      "is_hyperparameter": true
+    },
+    {
+      "name": "hop_length",
+      "description": "Number of samples between successive audio frames",
+      "type": "int",
+      "optional": true,
+      "default": "1024",
+      "is_hyperparameter": true
+    }
+  ],
+  "task_type": ["Feature Extraction"],
+  "is_deterministic": true,
+  "handles_classification": false,
+  "handles_regression": false,
+  "handles_multiclass": false,
+  "handles_multilabel": false,
+  "build":
+  [
+    {
+      "type": "pip",
+      "package": "spider"
+    }
+  ],
+  "compute_resources":
+  {
+    "sample_size": [13.6, 63.4, 580.1],
+    "sample_unit": ["MB", "MB", "MB"],
+    "num_nodes": [1, 1, 1],
+    "cores_per_node": [1, 1, 1],
+    "gpus_per_node": [0, 0, 0],
+    "mem_per_node": [0.13, 0.23, 1.32],
+    "disk_per_node": [0, 0, 0],
+    "mem_per_gpu": [0, 0, 0],
+    "expected_running_time": [0.62, 1.44, 14.02]
+  },
+  "interface_type": "featurization"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "4ba5513a-9286-3f1f-80c3-f563d7b4a1f6",
+    "name": "spider.featurization.vgg16.vgg16",
+    "common_name": "VGG16",
+    "team": "Michigan",
+    "description": "Image featurization primitive for generating 4092-dim feature vectors from VGG16 model pre-trained on Imagenet dataset.",
+    "languages": ["python2.7"],
+    "library": "spider",
+    "version": "1.1",
+    "schema_version": 1.0,
+    "is_class": true,
+    "tags": [
+        "feature_extraction",
+        "image"
+    ],    
+    "algorithm_type": ["Deep Learning", "Neural Networks", "VGG16"],
+    "task_type": ["Feature extraction"],
+    "input_type": ["DENSE"],
+    "output_type": ["FEATURES"],
+    "is_deterministic": true,
+    "handles_classification": true,
+    "handles_regression": false,
+    "handles_multiclass": true,
+    "handles_multilabel": false,
+    "build":
+    [
+        {
+            "type": "pip",
+            "package": "spider"
+        }
+    ],
+    "compute_resources":
+    {
+    "sample_size": [16.0, 678.0, 1.2],
+    "sample_unit": ["MB", "MB", "GB"],
+    "num_nodes": [1,1,1],
+    "cores_per_node": [4, 4, 4],
+    "gpus_per_node": [0, 0, 0],
+    "mem_per_node": [0.17, 0.17, 0.26],
+    "disk_per_node": [0.53, 0.53, 0.53],
+    "mem_per_gpu": [0.0, 0.0, 0.0],
+    "expected_running_time": [3.71, 138.2, 2550.0]
+    },
+    "interface_type": "featurization"
+}

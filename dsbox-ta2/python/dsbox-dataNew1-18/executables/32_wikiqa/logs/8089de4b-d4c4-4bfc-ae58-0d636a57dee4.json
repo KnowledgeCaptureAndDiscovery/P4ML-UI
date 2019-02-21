@@ -1,0 +1,10 @@
+{
+    "name": "8089de4b-d4c4-4bfc-ae58-0d636a57dee4",
+    "pipeline_rank": 1,
+    "primitives": [
+        "corex_text.CorexText",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.ensemble.gradient_boosting.GradientBoostingClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

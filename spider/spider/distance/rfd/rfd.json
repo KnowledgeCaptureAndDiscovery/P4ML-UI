@@ -1,0 +1,309 @@
+{
+    "id": "",
+    "name": "spider.featurization.vgg16.VGG16",
+    "common_name": "VGG16",
+    "team": "spider",
+    "description": "Image featurization primitive for generating feature vectors from pretrained VGG16 model.",
+    "languages": ["python"],
+    "library": "spider",
+    "version": "1.0",
+    "schema_version": "1.0",
+    "source_code": "",
+    "is_class": true,
+    "attributes": [],
+    "parameters":
+    [
+        {
+            "name": "name",
+            "description": "Name of the primitive",
+            "type": "String",
+            "optional": true,
+            "default": "vgg16",
+            "is_hyperparameter": false
+        },
+        {
+            "name": "weights_url",
+            "description": "URL from which to download the weights file",
+            "type": "String",
+            "optional": true,
+            "default": "https://umich.box.com/shared/static/dzmxth5l7ql3xggc0hst5h1necjfaurt.h5",
+            "is_hyperparameter": false
+        },
+        {
+            "name": "weights_directory",
+            "description": "Path to the directory containing the weights to load into the model",
+            "type": "String",
+            "optional": true,
+            "default": "spider/featurization/vgg16/weights",
+            "is_hyperparameter": false
+        },
+        {
+            "name": "weights_filename",
+            "description": "Filename of the weights file to load",
+            "type": "String",
+            "optional": true,
+            "default": "vgg16_weights.h5",
+            "is_hyperparameter": false
+        },
+        {
+            "name": "interpolation_method",
+            "description": "Method used to upsample or downsample input image",
+            "type": "String",
+            "optional": true,
+            "default": "bilinear",
+            "is_hyperparameter": false
+        },
+        {
+            "name": "output_feature_layer",
+            "description": "Layer of the network to output. Eg. 'fc1'for the first fully connected layer, 'predictions' for the class predictions. View network layers for further options.",
+            "type": "String",
+            "optional": true,
+            "default": "fc2",
+            "is_hyperparameter": false
+        }
+    ],
+    "methods_available":
+    [
+        {
+            "id": "spider.featurization.vgg16.VGG16.set_weights_url",
+            "name": "set_weights_url",
+            "description": "Set the URL from which to download the weights file",
+            "parameters":
+            [
+                {
+                    "name": "url",
+                    "description": "URL for the weights file",
+                    "type": "String",
+                    "optional": false,
+                    "is hyperparameter": false
+                }
+            ]
+        },            
+        {
+            "id": "spider.featurization.vgg16.VGG16.set_weights_directory",
+            "name": "set_weights_directory",
+            "description": "Set the path to the directory containing the weights file to be loaded",
+            "parameters":
+            [
+                {
+                    "name": "directory",
+                    "description": "Path to the directory containing the weights file",
+                    "type": "String",
+                    "optional": false,
+                    "is hyperparameter": false
+                }
+            ]
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.set_weights_filename",
+            "name": "set_weights_filename",
+            "description": "Set the filename of the weights file to be loaded",
+            "parameters":
+            [
+                {
+                    "name": "path",
+                    "description": "Path to the weights file",
+                    "type": "String",
+                    "optional": false,
+                    "is hyperparameter": false
+                }
+            ]
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.set_interpolation_method",
+            "name": "set_interpolation_method",
+            "description": "Select the method to use for data resize interpolation",
+            "parameters":
+            [
+                {
+                    "name": "method",
+                    "description": "One of the scipy.misc method arguments - 'bilinear', 'nearest', 'lanczos', 'bicubic', or 'cubic'",
+                    "type": "String",
+                    "optional": false,
+                    "is hyperparameter": false
+                }
+            ]
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.set_output_feature_layer",
+            "name": "set_output_feature_layer",
+            "description": "Sets which layer of VGG16 to output values from",
+            "parameters":
+            [
+                {
+                    "name": "layer",
+                    "description": "One of the layers from the VGG16 network defined in class",
+                    "type": "String",
+                    "optional": false,
+                    "is hyperparameter": false
+                }
+            ]
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.model",
+            "name": "model",
+            "description": "Implementation of the VGG16 neural network architecture provided by keras and fchollet",
+            "parameters": [],
+            "returns":
+            {
+                "name": "model",
+                "description": "The network architecture as a keras model instance",
+                "type": "Object"
+            }
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.download_weights",
+            "name": "download_weights",
+            "description": "If the weights file does not exist at the given _weights_directory, downloads the weights at the given _weights_url and stores them at the location given by ",
+            "parameters": 
+            [
+                {
+                    "name": "directory",
+                    "description": "path to the directory to which the weights file should be saved",
+                    "type": "String",
+                    "optional": true,
+                    "default": "self._weights_directory",
+                    "is hyperparameter": false
+                },
+                {
+                    "name": "filename",
+                    "description": "filename with which to name the downloaded weights file",
+                    "type": "String",
+                    "optional": true,
+                    "default": "self._weights_filename",
+                    "is hyperparameter": false
+                },
+                {
+                    "name": "url",
+                    "description": "url from which the weights file should be downloaded",
+                    "type": "String",
+                    "optional": true,
+                    "default": "self._weights_url",
+                    "is hyperparameter": false
+                }
+            ],
+            "returns":
+            {
+                "name": "filepath",
+                "description": "The path to the weights file to be loaded into the model",
+                "type": "String"
+            }
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.input_handler",
+            "name": "input_handler",
+            "description": "Performs necessary manipulations to prepare input data for implementation in the VGG16 network",
+            "parameters": 
+            [
+                {
+                    "name": "data",
+                    "description": "string file location of image file, or np.array of an image to feed into the network",
+                    "type": "String",
+                    "optional": false,
+                    "is hyperparameter": false
+                },
+                {
+                    "name": "method",
+                    "description": "selects which method of interpolation to perform when resizing the input is necessary",
+                    "type": "String",
+                    "optional": true,
+                    "default": "bilinear",
+                    "is hyperparameter": false
+                }
+            ],
+            "returns":
+            {
+                "name": "x",
+                "description": "4D np.array to feed into the VGG16 network. Typically the output is always of shape (1, 224, 224, 3)",
+                "type": "np.array"
+            }
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.model_handler",
+            "name": "model_handler",
+            "description": "Used to construct and layout the VGG16 model with desired input and output",
+            "parameters": 
+            [
+                {
+                    "name": "output_feature_layer",
+                    "description": "The layer from VGG16 to output from the forward pass of the model",
+                    "type": "String",
+                    "optional": false,
+                    "is hyperparameter": false
+                }
+            ],
+            "returns":
+            {
+                "name": "model",
+                "description": "A Keras model type with desired input and output",
+                "type": "Object"
+            }
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.imagenet_predictions",
+            "name": "imagenet_predictions",
+            "description": "Outputs the predicted imagenet class of the input data",
+            "parameters": 
+            [
+                {
+                    "name": "data",
+                    "description": "file location or numpy array containing image data to feed into the network",
+                    "type": "String, np.array",
+                    "optional": false,
+                    "is hyperparameter": false
+                }
+            ],
+            "returns":
+            {
+                "name": "predictions",
+                "description": "The top 5 predicted imagenet classes at the output of the model",
+                "type": "String"
+            }
+        },
+        {
+            "id": "spider.featurization.vgg16.VGG16.featurize",
+            "name": "featurize",
+            "description": "Outputs the features at the self._output_feature_layer layer of a forward pass over the VGG16 model given the input data",
+            "parameters": 
+            [
+                {
+                    "name": "data",
+                    "description": "file location or numpy array containing image data to feed into the network",
+                    "type": "String, np.array",
+                    "optional": false,
+                    "is hyperparameter": false
+                }
+            ],
+            "returns":
+            {
+                "name": "features",
+                "description": "the features output by the desired layer of the VGG16 network after a forward pass of the data",
+                "type": "np.array"
+            }
+        },
+    ], 
+    "algorithm_type": ["Deep Learning", "Neural Networks"],
+    "task_type": ["Feature Extraction", "Modeling"],
+    "learning_type": "",
+    "is_deterministic": true,
+    "handles_classification": true,
+    "handles_regression": false,
+    "handles_multiclass": true,
+    "handles_multilabel": false,
+    "build":
+    {
+        "type": "pip",
+        "cmd": ""
+    },
+    "compute_resources":
+    {
+    "sample_size": "",
+    "sample_unit": "",
+    "num_nodes": "",
+    "cores_per_node": "",
+    "gpus_per_node": "",
+    "mem_per_node": "",
+    "disk_per_node": "",
+    "mem_per_gpu": ""
+    }
+}

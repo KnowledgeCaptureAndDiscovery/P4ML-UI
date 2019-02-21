@@ -1,0 +1,115 @@
+{
+    "id": "34c1368e-ac1b-348f-b3e6-e116c8d4c2b6",
+    "name": "spider.cluster.ssc_cvx.SSC_CVX",
+    "common_name": "SSC_CVX",
+    "team": "spider",
+    "description": "Cluster primitive that uses the sparse subspace clustering (SSC) algorithm with convex optimization to perform subspace clustering.",
+    "languages": ["python"],
+    "library": "spider",
+    "version": "1.0",
+    "schema_version": "1.0",
+    "is_class": true,
+    "parameters":
+    [
+        {
+            "name": "n_clusters",
+            "description": "Number of clusters",
+            "type": "int",
+            "optional": false,
+            "is_hyperparameter": false
+        },
+        {
+            "name": "use_affine",
+            "description": "Whether or not data points come from union of affine subspaces instead of linear subspaces",
+            "type": "Bool",
+            "optional": true,
+            "default": "False",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "use_outliers",
+            "description": "Whether or not to use outliers",
+            "type": "Bool",
+            "optional": true,
+            "default": "True",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "use_noise",
+            "description": "Whether or not to use noise",
+            "type": "Bool",
+            "optional": true,
+            "default": "True",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "alpha",
+            "description": "Constant used in calculating coefficients for sparse outlying entries (E) and noise (Z) terms",
+            "type": "Float",
+            "optional": true,
+            "default": "-1",
+            "is_hyperparameter": true
+        }
+    ],
+    "methods_available":
+    [           
+        {
+            "id": "spider.cluster.ssc_cvx.SSC_cvx.produce",
+            "name": "produce",
+            "description": "Computes predicted labels using SSC algorithm with convex optimisation",
+            "parameters":
+            [
+                {
+                    "name": "inputs",
+                    "description": "Data matrix",
+                    "type": "np.array, np.matrix",
+                    "optional": false,
+                    "is_hyperparameter": false
+                },
+                {
+                    "name": "timeout",
+                    "description": "This parameter serves as a way for caller to guide the length of the process",
+                    "type": "float",
+                    "optional": true,
+                    "default": "None",
+                    "is_hyperparameter": false
+                },
+                {
+                    "name": "iterations",
+                    "description": "This parameter serves as a way for caller to guide the length of the process",
+                    "type": "int",
+                    "optional": true,
+                    "default": "None",
+                    "is_hyperparameter": false
+                }
+            ]
+        }
+
+    ], 
+    "algorithm_type": ["Clustering"],
+    "task_type": ["Modeling"],
+    "learning_type": "Unsupervised learning",
+    "input_type": "DENSE",
+    "output_type": "PREDICTIONS",
+    "is_deterministic": false,
+    "handles_classification": false,
+    "handles_regression": false,
+    "handles_multiclass": false,
+    "handles_multilabel": false,
+    "build":
+    {
+        "type": "pip",
+        "cmd": "pip install spider"
+    },
+    "compute_resources":
+    {
+    "sample_size": ["5"],
+    "sample_unit": ["MB"],
+    "num_nodes": ["1"],
+    "cores_per_node": ["1"],
+    "gpus_per_node": ["0"],
+    "mem_per_node": ["10"],
+    "disk_per_node": ["0"],
+    "mem_per_gpu": ["0"]
+    }
+}

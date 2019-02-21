@@ -1,0 +1,113 @@
+{
+    "id": "f756e88e-6474-3b3f-85d5-66fd7573f0c0",
+    "name": "spider.dimensionality_reduction.go_dec.GO_DEC",
+    "common_name": "GoDec",
+    "team": "spider",
+    "description": "Dimensionality reduction primitive that uses Robust Principal Component Analysis (RPCA) via the Go Decomposition (GoDec).",
+    "languages": ["python2.7"],
+    "library": "spider",
+    "version": "1.1",
+    "schema_version": "1.0",
+    "is_class": true,
+    "parameters":
+    [
+        {
+            "name": "name",
+            "description": "Name of the primitive",
+            "type": "String",
+            "optional": true,
+            "default": "GoDec",
+            "is_hyperparameter": false
+        },
+		{
+            "name": "c",
+            "description": "Maximum cardinality of sparse component (if c>=1 then max card = c; if 0<c<1 then max card = c*m*n where (m,n) is shape of data matrix)",
+            "type": "Float",
+            "optional": true,
+            "default": "0.03",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "r",
+            "description": "Maximum rank of low-rank component (if r>=1 then max rank = r; if 0<r<1 then max rank = r*min(m,n) where (m,n) is shape of data matrix)",
+            "type": "Float",
+            "optional": true,
+            "default": "0.1",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "power",
+            "description": "Power scheme modification (larger power leads to higher accuracy and higher time cost)",
+            "type": "Int",
+            "optional": true,
+            "default": "2",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "epsilon",
+            "description": "Termination constant",
+            "type": "Float",
+            "optional": true,
+            "default": "1e-3",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "max_iter",
+            "description": "Maximum number of iterations",
+            "type": "Int",
+            "optional": true,
+            "default": "100",
+            "is_hyperparameter": true
+        }
+    ],
+    "methods_available":
+    [
+        {
+            "id": "spider.dimensionality_reduction.go_dec.GO_DEC.produce",
+            "name": "produce",
+            "description": "RPCA via the Go Decomposition (GoDec)",
+            "parameters":
+            [
+                {
+                    "name": "A",
+                    "description": "Data matrix",
+                    "type": "np.array, np.matrix",
+                    "optional": false,
+                    "is_hyperparameter": false
+                }
+            ],
+            "returns":
+            {
+                "name": "W",
+                "description": "Low-rank component of data matrix",
+                "type": "np.array"
+            }
+        }
+    ],
+    "algorithm_type": ["Transformation"],
+    "task_type": ["Feature extraction"],
+    "learning_type": "Unsupervised learning",
+    "input_type": "DENSE",
+    "output_type": "FEATURES",
+    "is_deterministic": false,
+    "handles_classification": false,
+    "handles_regression": false,
+    "handles_multiclass": false,
+    "handles_multilabel": false,
+    "build":
+    {
+        "type": "pip",
+        "cmd": "pip install spider"
+    },
+    "compute_resources": {
+        "sample_size": [],
+        "sample_unit": [],
+        "disk_per_node": [],
+        "expected_running_time": [],
+        "gpus_per_node": [],
+        "cores_per_node": [],
+        "mem_per_gpu": [],
+        "mem_per_node": [],
+        "num_nodes": []
+    }
+}

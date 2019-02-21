@@ -1,0 +1,116 @@
+{
+    "id": "42ceb539-d704-3c9c-a10c-7559fb16519e",
+    "name": "spider.cluster.ekss.EKSS",
+    "common_name": "EKSS",
+    "description": "Ensemble K-Subspaces algorithm for subspace clustering",
+    "languages": ["python2.7"],
+    "library": "spider",
+    "version": "1.1",
+    "is_class": true,
+    "parameters":
+    [
+        {
+            "name": "n_clusters",
+            "description": "Number of clusters",
+            "type": "int",
+            "optional": false,
+            "is_hyperparameter": false
+        },
+        {
+            "name": "dim_subspaces",
+            "description": "dimension of subspaces (assumed all equal)",
+            "type": "int",
+            "optional": true,
+            "default": "1",
+            "is_hyperparameter": true,
+            "range": [1, 1000000],
+            "kind": "uniform"
+        },
+        {
+            "name": "n_base",
+            "description": "number of base clusterings",
+            "type": "int",
+            "optional": true,
+            "default": "100",
+            "is_hyperparameter": true,
+            "range": [1, 1.00E6],
+            "kind": "log"
+        },
+        {
+            "name": "thresh",
+            "description": "threshold parameter, int, 0 < thresh <= n_samples. threshold the affinity matrix by taking top thresh values from each row/column before applying Spectral Clustering. if thresh is None, no threshold applied",
+            "type": "int",
+            "optional": true,
+            "default": "None",
+            "is_hyperparameter": true,
+            "range": [1, 100000000],
+            "kind": "uniform"
+        }
+    ],
+    "methods_available":
+    [
+        {
+            "id": "spider.cluster.ekss.EKSS.produce",
+            "name": "produce",
+            "description": "Apply Ensemble K-Subspaces algorithm on inputs",
+            "parameters":
+                [
+                    {
+                        "name": "inputs",
+                        "description": "array-like matrix, shape (n_samples, n_features) where n_samples is number of data points and n_features is ambient dimension",
+                        "type": "np.array, np.matrix",
+                        "optional": false,
+                        "is_hyperparameter": false
+                    },
+                    {
+                        "name": "timeout",
+                        "description": "This parameter serves as a way for caller to guide the length of the process",
+                        "type": "float",
+                        "optional": true,
+                        "default": "None",
+                        "is_hyperparameter": false
+                    },
+                    {
+                        "name": "iterations",
+                        "description": "This parameter serves as a way for caller to guide the length of the process",
+                        "type": "int",
+                        "optional": true,
+                        "default": "None",
+                        "is_hyperparameter": false
+                    }
+                ]
+        }
+    ],
+    "algorithm_type": ["Clustering", "Ensemble"],
+    "task_type": ["Modeling"],
+    "learning_type": ["Unsupervised learning"],
+    "input_type": ["DENSE"],
+    "output_type": ["PREDICTIONS"],
+    "is_deterministic": false,
+    "handles_classification": false,
+    "handles_regression": false,
+    "handles_multiclass": false,
+    "handles_multilabel": false,
+    "team": "Michigan",
+    "schema_version": 1.0,
+    "build":
+    [
+        {
+        "type": "pip",
+        "package": "spider"
+        }
+    ],
+    "compute_resources":
+    {
+        "sample_size": [5],
+        "sample_unit": ["MB"],
+        "num_nodes": [1],
+        "cores_per_node": [1],
+        "gpus_per_node": [0],
+        "mem_per_node": [10],
+        "disk_per_node": [0],
+        "mem_per_gpu": [0],
+        "expected_running_time": [120]
+    },
+    "interface_type": "unsupervised_learning_clustering"
+}

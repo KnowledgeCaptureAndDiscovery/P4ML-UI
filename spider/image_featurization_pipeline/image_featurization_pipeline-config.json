@@ -1,0 +1,6 @@
+{
+  "problem_schema":"path/to/problem_schema.json",
+  "dataset_schema":"/path/to/dataSchema.json",
+  "data_root":"/path/to/dataset/folder/",
+  "output_file":"./output-example.csv"
+}

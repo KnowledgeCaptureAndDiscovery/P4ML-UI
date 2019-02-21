@@ -1,0 +1,10 @@
+{
+    "name": "057c3b8c-1b1c-401e-b32b-b14bfedb0717",
+    "pipeline_rank": 22,
+    "primitives": [
+        "sklearn.feature_extraction.text.TfidfVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.naive_bayes.MultinomialNB"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

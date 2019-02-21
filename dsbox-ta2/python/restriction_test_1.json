@@ -1,0 +1,8 @@
+
+{
+        "include_model":["LinearSVC","LogisticRegression","DecisionTreeClassifier"],
+        "timeout": 50,
+        "cpus"  : "10",
+        "ram"   : "16Gi"
+}
+     
