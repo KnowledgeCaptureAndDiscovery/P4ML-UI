@@ -1,13 +1,24 @@
 
 {
         "include_model":["LinearSVC","LogisticRegression","DecisionTreeClassifier"],
-        "include_feature_extraction":["tfidfVectorizer"],
+        "exclude_model":[],
+        "include_feature_generarion":["tfidfVectorizer"],
         "use_imputation_method":"median",
+        "include_variables":[],
+        "exclude_variables":[],
+        "include_instances":[],
+        "exclude_instances":[],
+        "define_variable_weight":[{"variable":"","weight":},{}],
+        "select_training_and_test_data":{"training_data": [],"testing_data": [],"cross_validation": "k-fold"},
         "replace_model":["LogisticRegression"],
-        // "use_specific_parameter_for_model":[{"model": "DecisionTreeClassifier","parameter":}],
-        // "exclude_model":[],
+        "use_specific_parameter_for_model":[{"model": "DecisionTreeClassifier","parameter":{}}],
+        "include_class_of_model":[],
+        "include_class_of_data_preparation_method":[],
+        "include_statistical_test":[],
+        "results_after_step":"DataPreprocessing",
+        "compare_solutions":{"model":,"data_preparation_method":[]},
+        "compare_models":[],
         "timeout": 50,
         "cpus"  : "10",
         "ram"   : "16Gi"
 }
-     
