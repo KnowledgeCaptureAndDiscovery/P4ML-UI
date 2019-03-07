@@ -1,0 +1,9 @@
+[submodule "corex_topic"]
+	path = corex_topic
+	url = https://github.com/gregversteeg/corex_topic.git
+[submodule "disc_corex"]
+	path = bio_corex
+	url = https://github.com/brekelma/bio_corex.git
+[submodule "LinearCorex"]
+	path = LinearCorex
+	url = https://github.com/gregversteeg/LinearCorex.git

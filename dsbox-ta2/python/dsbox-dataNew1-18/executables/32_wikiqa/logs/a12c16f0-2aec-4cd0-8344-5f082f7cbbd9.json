@@ -1,0 +1,10 @@
+{
+    "name": "a12c16f0-2aec-4cd0-8344-5f082f7cbbd9",
+    "pipeline_rank": 13,
+    "primitives": [
+        "sklearn.feature_extraction.text.TfidfVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.ensemble.forest.RandomForestClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

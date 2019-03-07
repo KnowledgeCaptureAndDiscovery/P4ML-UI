@@ -1,0 +1,83 @@
+diff --git a/spider/__init__.py b/spider/__init__.py
+index f554424..9ff93e5 100644
+--- a/spider/__init__.py
++++ b/spider/__init__.py
+@@ -13,9 +13,10 @@
+ #import tools
+ 
+ ## sub-packages
+-import featurization
+-import distance
+-import cluster
+-import dimensionality_reduction
++#import featurization
++#import distance
++#import cluster
++#import dimensionality_reduction
++
+ #import primitives
+ #import deeplayers
+diff --git a/spider/featurization/audio_featurization/audio_featurization.py b/spider/featurization/audio_featurization/audio_featurization.py
+index 3c43b57..d391cb2 100644
+--- a/spider/featurization/audio_featurization/audio_featurization.py
++++ b/spider/featurization/audio_featurization/audio_featurization.py
+@@ -2,7 +2,7 @@ import numpy as np
+ import stopit
+ import sys
+ import warnings
+-from utils import audio_feature_extraction
++from .utils import audio_feature_extraction
+ from spider.featurization_base import FeaturizationTransformerPrimitiveBase
+ 
+ Inputs = list
+diff --git a/spider/featurization/audio_featurization/utils.py b/spider/featurization/audio_featurization/utils.py
+index fd84e3e..58ff26e 100644
+--- a/spider/featurization/audio_featurization/utils.py
++++ b/spider/featurization/audio_featurization/utils.py
+@@ -257,7 +257,7 @@ def stChromaFeatures(X, fs, nChroma, nFreqsPerChroma):
+     newD = int(np.ceil(C.shape[0] / 12.0) * 12)
+     C2 = np.zeros((newD, ))
+     C2[0:C.shape[0]] = C
+-    C2 = C2.reshape(C2.shape[0]/12, 12)
++    C2 = C2.reshape(int(C2.shape[0]/12), 12)
+ 
+     finalC = np.matrix(np.sum(C2, axis=0)).T
+     finalC /= spec.sum()
+@@ -294,7 +294,7 @@ def audio_feature_extraction(signal, Fs, Win, Step):
+     N = len(signal)                                # total number of samples
+     curPos = 0
+     countFrames = 0
+-    nFFT = Win / 2
++    nFFT = int(Win / 2)
+ 
+     [fbank, freqs] = mfccInitFilterBanks(Fs, nFFT)                # compute the triangular filter banks used in the mfcc calculation
+     nChroma, nFreqsPerChroma = stChromaFeaturesInit(nFFT, Fs)
+@@ -333,4 +333,4 @@ def audio_feature_extraction(signal, Fs, Win, Step):
+         Xprev = X.copy()
+ 
+     stFeatures = np.concatenate(stFeatures, 1)
+-    return stFeatures
+\ No newline at end of file
++    return stFeatures
+diff --git a/spider/featurization/audio_slicer/__init__.py b/spider/featurization/audio_slicer/__init__.py
+index e4ad88c..dcb5c8b 100644
+--- a/spider/featurization/audio_slicer/__init__.py
++++ b/spider/featurization/audio_slicer/__init__.py
+@@ -9,5 +9,5 @@
+     defines the module index
+ """
+ 
+-from audio_slicer import AudioSlicer
++from .audio_slicer import AudioSlicer
+ 
+diff --git a/spider/featurization/logmelspectrogram/__init__.py b/spider/featurization/logmelspectrogram/__init__.py
+index 20dc6a0..b564073 100644
+--- a/spider/featurization/logmelspectrogram/__init__.py
++++ b/spider/featurization/logmelspectrogram/__init__.py
+@@ -9,5 +9,5 @@
+     defines the module index
+ """
+ 
+-from logmelspectrogram import LogMelSpectrogram
++from .logmelspectrogram import LogMelSpectrogram
+ 

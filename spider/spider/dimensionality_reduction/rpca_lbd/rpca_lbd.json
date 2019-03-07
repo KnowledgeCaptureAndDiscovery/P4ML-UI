@@ -1,0 +1,145 @@
+{
+    "id": "c1e7a1be-ce3f-342d-89c0-cade0ffae05e",
+    "name": "spider.dimensionality_reduction.rpca_lbd.RPCA_LBD",
+    "common_name": "RPCA LBD",
+    "team": "spider",
+    "description": "Dimensionality reduction primitive that uses Robust Principal Component Analysis (RPCA) based on the Low-Rank and Block-Sparse Decomposition (LBD) model.",
+    "languages": ["python2.7"],
+    "library": "spider",
+    "version": "1.1",
+    "schema_version": "1.0",
+    "is_class": true,
+    "parameters":
+    [
+        {
+            "name": "name",
+            "description": "Name of the primitive",
+            "type": "String",
+            "optional": true,
+            "default": "RPCA_LBD",
+            "is_hyperparameter": false
+        },
+		{
+            "name": "kappa",
+            "description": "Regularization parameter",
+            "type": "Float",
+            "optional": true,
+            "default": "1.1",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "lamb",
+            "description": "Regularization parameter",
+            "type": "Bool",
+            "optional": true,
+            "default": "0.61",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "rho",
+            "description": "Outer loop parameter",
+            "type": "Float",
+            "optional": true,
+            "default": "1.1",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "beta",
+            "description": "Inner loop parameter",
+            "type": "Float",
+            "optional": true,
+            "default": "0.2",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "alpha",
+            "description": "Inner loop parameter",
+            "type": "Float",
+            "optional": true,
+            "default": "1.0",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "outer_epsilon",
+            "description": "Termination constant for outer loop",
+            "type": "Float",
+            "optional": true,
+            "default": "1e-7",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "outer_max_iter",
+            "description": "Maximum number of iterations for outer loop",
+            "type": "Int",
+            "optional": true,
+            "default": "500",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "inner_epsilon",
+            "description": "Termination constant for inner loop",
+            "type": "Float",
+            "optional": true,
+            "default": "1e-7",
+            "is_hyperparameter": true
+        },
+        {
+            "name": "inner_max_iter",
+            "description": "Maximum number of iterations for inner loop",
+            "type": "Int",
+            "optional": true,
+            "default": "20",
+            "is_hyperparameter": true
+        }
+    ],
+    "methods_available":
+    [
+        {
+            "id": "spider.dimensionality_reduction.rpca_lbd.RPCA_LBD.produce",
+            "name": "produce",
+            "description": "RPCA-LBD",
+            "parameters":
+            [
+                {
+                    "name": "A",
+                    "description": "Collection of vectors in high dimensional space where rows are samples and columns are features",
+                    "type": "np.array, np.matrix",
+                    "optional": false,
+                    "is_hyperparameter": false
+                }
+            ],
+            "returns":
+            {
+                "name": "W",
+                "description": "Collection of vectors in low dimensional space where rows are samples and columns are features",
+                "type": "np.array"
+            }
+        }
+    ],
+    "algorithm_type": ["Transformation"],
+    "task_type": ["Feature extraction"],
+    "learning_type": "Unsupervised learning",
+    "input_type": "DENSE",
+    "output_type": "FEATURES",
+    "is_deterministic": false,
+    "handles_classification": false,
+    "handles_regression": false,
+    "handles_multiclass": false,
+    "handles_multilabel": false,
+    "build":
+    {
+        "type": "pip",
+        "cmd": "pip install spider"
+    },
+    "compute_resources": {
+        "sample_size": [],
+        "sample_unit": [],
+        "disk_per_node": [],
+        "expected_running_time": [],
+        "gpus_per_node": [],
+        "cores_per_node": [],
+        "mem_per_gpu": [],
+        "mem_per_node": [],
+        "num_nodes": []
+    }
+}

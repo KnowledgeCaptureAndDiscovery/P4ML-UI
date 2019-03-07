@@ -1,0 +1,10 @@
+{
+    "name": "6d360f9b-9c13-4f8f-bc01-0e583b8bde33",
+    "pipeline_rank": 12,
+    "primitives": [
+        "sklearn.feature_extraction.text.CountVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.ensemble.gradient_boosting.GradientBoostingClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

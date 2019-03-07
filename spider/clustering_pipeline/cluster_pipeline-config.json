@@ -1,0 +1,6 @@
+{
+  "problem_schema":"./o_4550/problemSchema.json",
+  "dataset_schema":"./o_4550/data/dataSchema.json",
+  "data_root":"./o_4550/data",
+  "output_file":"./clustering_primitive_examples.csv"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "9667017e-a9db-4bba-9902-90486ed70d4f",
+    "pipeline_rank": 4,
+    "primitives": [
+        "sklearn.feature_extraction.text.TfidfVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.naive_bayes.GaussianNB"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

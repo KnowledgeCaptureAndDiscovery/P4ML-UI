@@ -1,0 +1,10 @@
+{
+    "name": "38fdce8d-d388-4444-b3aa-fcdf5da6789e",
+    "pipeline_rank": 16,
+    "primitives": [
+        "sklearn.feature_extraction.text.HashingVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.ensemble.weight_boosting.AdaBoostClassifier"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

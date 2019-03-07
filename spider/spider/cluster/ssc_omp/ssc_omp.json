@@ -1,0 +1,96 @@
+{
+    "id": "7cb55614-311d-3d88-8e08-15d240351e2d",
+    "name": "spider.cluster.ssc_omp.SSC_OMP",
+    "common_name": "SSC_OMP",
+    "team": "Michigan",
+    "description": "Cluster primitive that uses the sparse subspace clustering (SSC) algorithm with orthogonal matching pursuit to perform subspace clustering.",
+    "languages": ["python2.7"],
+    "library": "spider",
+    "version": "1.1",
+    "schema_version": 1.0,
+    "is_class": true,
+    "parameters":
+    [
+        {
+            "name": "n_clusters",
+            "description": "Number of clusters",
+            "type": "int",
+            "optional": false,
+            "is_hyperparameter": false
+        },
+		{
+            "name": "max_subspace_dim",
+            "description": "the number of regression coefficients",
+            "type": "Int",
+            "optional": true,
+            "default": "6",
+            "is_hyperparameter": true,
+            "range": [1, 1000000],
+            "kind": "uniform"
+        }
+    ],
+    "methods_available":
+    [
+        {
+            "id": "spider.cluster.ssc_omp.SSC_OMP.produce",
+            "name": "produce",
+            "description": "Computes predicted labels using SSC algorithm with OMP",
+            "parameters":
+            [
+                {
+                    "name": "inputs",
+                    "description": "array-like matrix, shape (n_samples, n_features) where n_samples is number of data points and n_features is ambient dimension",
+                    "type": "np.array, np.matrix",
+                    "optional": false,
+                    "is_hyperparameter": false
+                },
+                {
+                    "name": "timeout",
+                    "description": "This parameter serves as a way for caller to guide the length of the process",
+                    "type": "float",
+                    "optional": true,
+                    "default": "None",
+                    "is_hyperparameter": false
+                },
+                {
+                    "name": "iterations",
+                    "description": "This parameter serves as a way for caller to guide the length of the process",
+                    "type": "int",
+                    "optional": true,
+                    "default": "None",
+                    "is_hyperparameter": false
+                }
+            ]
+        }
+    ],
+    "algorithm_type": ["Clustering"],
+    "task_type": ["Modeling"],
+    "learning_type": ["Unsupervised learning"],
+    "input_type": ["DENSE"],
+    "output_type": ["PREDICTIONS"],
+    "is_deterministic": false,
+    "handles_classification": false,
+    "handles_regression": false,
+    "handles_multiclass": false,
+    "handles_multilabel": false,
+    "build":
+    [
+        {
+        "type": "pip",
+        "package": "spider"
+        }
+    ],
+    "compute_resources":
+    {
+    "sample_size": [5],
+    "sample_unit": ["MB"],
+    "num_nodes": [1],
+    "cores_per_node": [1],
+    "gpus_per_node": [0],
+    "mem_per_node": [10],
+    "disk_per_node": [0],
+    "mem_per_gpu": [0],
+    "expected_running_time": [140]
+    },
+    "interface_type": "unsupervised_learning_clustering"
+}

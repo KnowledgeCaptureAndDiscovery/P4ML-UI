@@ -1,0 +1,10 @@
+{
+    "name": "59e51a8f-2a14-46ac-a2ac-360c0dc9a576",
+    "pipeline_rank": 1,
+    "primitives": [
+        "sklearn.feature_extraction.text.CountVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.linear_model.logistic.LogisticRegression"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}

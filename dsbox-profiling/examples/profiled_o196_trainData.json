@@ -1,0 +1,1238 @@
+{
+    "acceleration": {
+        "special_type": {
+            "num_filename": 0
+        }, 
+        "missing": {
+            "num_nonblank": 298, 
+            "leading_space": 0, 
+            "trailing_space": 0, 
+            "num_missing": 0
+        }, 
+        "distinct": {
+            "ratio_distinct_tokens": 0.2986577181208054, 
+            "num_distinct_tokens_puncs": 25, 
+            "ratio_distinct_tokens_puncs": 0.04194630872483222, 
+            "num_distinct_values": 89, 
+            "ratio_distinct_values": 0.2986577181208054, 
+            "num_distinct_tokens": 89
+        }, 
+        "frequent-entries": {
+            "most_common_numeric_tokens": {
+                "14.5": 17, 
+                "13.5": 13, 
+                "16.0": 12, 
+                "15.0": 12, 
+                "15.5": 12, 
+                "16.5": 10, 
+                "13.0": 10, 
+                "17.0": 10, 
+                "14.0": 9, 
+                "19.0": 8
+            }, 
+            "most_common_tokens_puncs": {
+                "0": 90, 
+                "5": 79, 
+                "14": 48, 
+                "15": 43, 
+                "16": 41, 
+                "13": 36, 
+                "17": 28, 
+                "2": 24, 
+                "8": 24, 
+                "18": 23
+            }, 
+            "most_common_values": {
+                "14.5": 17, 
+                "13.5": 13, 
+                "15.0": 12, 
+                "15.5": 12, 
+                "16.0": 12, 
+                "16.5": 10, 
+                "17.0": 10, 
+                "13.0": 10, 
+                "14.0": 9, 
+                "19.0": 8
+            }, 
+            "most_common_tokens": {
+                "14.5": 17, 
+                "13.5": 13, 
+                "16.0": 12, 
+                "15.0": 12, 
+                "15.5": 12, 
+                "16.5": 10, 
+                "13.0": 10, 
+                "17.0": 10, 
+                "14.0": 9, 
+                "19.0": 8
+            }
+        }, 
+        "numeric_stats": {
+            "contain_numeric_token_puncs": {
+                "count": 596, 
+                "ratio": 1.0
+            }, 
+            "decimal": {
+                "Q1": 13.9, 
+                "count": 298, 
+                "Q3": 17.3, 
+                "standard-deviation": 2.7713707412752373, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 1, 
+                "Q2": 15.5, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 15.657718120805368
+            }, 
+            "numeric": {
+                "Q1": 13.9, 
+                "count": 298, 
+                "Q3": 17.3, 
+                "standard-deviation": 2.7713707412752373, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 1, 
+                "Q2": 15.5, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 15.657718120805368
+            }, 
+            "contain_numeric": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric_density": 0.7491582491582491, 
+            "correlation": {
+                "spearman": [
+                    -0.08255892145666173, 
+                    -0.4294475601960573, 
+                    -0.4500045475476624, 
+                    -0.620406567730578, 
+                    -0.3507824716381869, 
+                    1.0, 
+                    0.26302004857120037, 
+                    0.20274121198292314
+                ], 
+                "pearson": [
+                    -0.07317366533331487, 
+                    -0.47231012781915965, 
+                    -0.5006432124369199, 
+                    -0.6649794861609155, 
+                    -0.35987619234221907, 
+                    1.0, 
+                    0.2797516455804005, 
+                    0.19327011882513212
+                ], 
+                "columns": [
+                    "d3mIndex", 
+                    "cylinders", 
+                    "displacement", 
+                    "horsepower", 
+                    "weight", 
+                    "acceleration", 
+                    "model", 
+                    "origin"
+                ]
+            }, 
+            "contain_numeric_token": {
+                "count": 298, 
+                "ratio": 1.0
+            }
+        }, 
+        "length": {
+            "token": {
+                "average": 3.9865771812080535, 
+                "standard-deviation": 0.11527026834246908
+            }, 
+            "character": {
+                "average": 3.9865771812080535, 
+                "standard-deviation": 0.11527026834246908
+            }
+        }
+    }, 
+    "origin": {
+        "special_type": {
+            "num_filename": 0
+        }, 
+        "missing": {
+            "num_nonblank": 298, 
+            "leading_space": 0, 
+            "trailing_space": 0, 
+            "num_missing": 0
+        }, 
+        "distinct": {
+            "ratio_distinct_tokens": 0.010067114093959731, 
+            "num_distinct_tokens_puncs": 3, 
+            "ratio_distinct_tokens_puncs": 0.010067114093959731, 
+            "num_distinct_values": 3, 
+            "ratio_distinct_values": 0.010067114093959731, 
+            "num_distinct_tokens": 3
+        }, 
+        "frequent-entries": {
+            "most_common_numeric_tokens": {
+                "1": 186, 
+                "3": 59, 
+                "2": 53
+            }, 
+            "most_common_tokens_puncs": {
+                "1": 186, 
+                "3": 59, 
+                "2": 53
+            }, 
+            "most_common_values": {
+                "1": 186, 
+                "3": 59, 
+                "2": 53
+            }, 
+            "most_common_tokens": {
+                "1": 186, 
+                "3": 59, 
+                "2": 53
+            }, 
+            "most_common_alphanumeric_tokens": {
+                "1": 186, 
+                "3": 59, 
+                "2": 53
+            }
+        }, 
+        "numeric_stats": {
+            "contain_numeric_token_puncs": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric": {
+                "Q1": 1.0, 
+                "count": 298, 
+                "Q3": 2.0, 
+                "standard-deviation": 0.8016729958929775, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 1.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 186, 
+                "num_negative": 0, 
+                "mean": 1.5738255033557047
+            }, 
+            "contain_numeric": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric_density": 1.0, 
+            "correlation": {
+                "spearman": [
+                    -0.07206508550052979, 
+                    -0.6059172658603433, 
+                    -0.7096788256789243, 
+                    -0.5130969468255901, 
+                    -0.6244712047658493, 
+                    0.20274121198292314, 
+                    0.20834106684496984, 
+                    1.0
+                ], 
+                "pearson": [
+                    -0.06913891070356507, 
+                    -0.5630705780275563, 
+                    -0.618816933665553, 
+                    -0.447889821425295, 
+                    -0.5821408234159455, 
+                    0.19327011882513212, 
+                    0.21578090299266742, 
+                    1.0
+                ], 
+                "columns": [
+                    "d3mIndex", 
+                    "cylinders", 
+                    "displacement", 
+                    "horsepower", 
+                    "weight", 
+                    "acceleration", 
+                    "model", 
+                    "origin"
+                ]
+            }, 
+            "integer": {
+                "Q1": 1.0, 
+                "count": 298, 
+                "Q3": 2.0, 
+                "standard-deviation": 0.8016729958929775, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 1.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 186, 
+                "num_negative": 0, 
+                "mean": 1.5738255033557047
+            }, 
+            "contain_numeric_token": {
+                "count": 298, 
+                "ratio": 1.0
+            }
+        }, 
+        "length": {
+            "token": {
+                "average": 1.0, 
+                "standard-deviation": 0.0
+            }, 
+            "character": {
+                "average": 1.0, 
+                "standard-deviation": 0.0
+            }
+        }
+    }, 
+    "cylinders": {
+        "special_type": {
+            "num_filename": 0
+        }, 
+        "missing": {
+            "num_nonblank": 298, 
+            "leading_space": 0, 
+            "trailing_space": 0, 
+            "num_missing": 0
+        }, 
+        "distinct": {
+            "ratio_distinct_tokens": 0.016778523489932886, 
+            "num_distinct_tokens_puncs": 5, 
+            "ratio_distinct_tokens_puncs": 0.016778523489932886, 
+            "num_distinct_values": 5, 
+            "ratio_distinct_values": 0.016778523489932886, 
+            "num_distinct_tokens": 5
+        }, 
+        "frequent-entries": {
+            "most_common_numeric_tokens": {
+                "4": 150, 
+                "8": 74, 
+                "6": 68, 
+                "3": 3, 
+                "5": 3
+            }, 
+            "most_common_tokens_puncs": {
+                "4": 150, 
+                "8": 74, 
+                "6": 68, 
+                "3": 3, 
+                "5": 3
+            }, 
+            "most_common_values": {
+                "4": 150, 
+                "8": 74, 
+                "6": 68, 
+                "3": 3, 
+                "5": 3
+            }, 
+            "most_common_tokens": {
+                "4": 150, 
+                "8": 74, 
+                "6": 68, 
+                "3": 3, 
+                "5": 3
+            }, 
+            "most_common_alphanumeric_tokens": {
+                "4": 150, 
+                "8": 74, 
+                "6": 68, 
+                "3": 3, 
+                "5": 3
+            }
+        }, 
+        "numeric_stats": {
+            "contain_numeric_token_puncs": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric": {
+                "Q1": 4.0, 
+                "count": 298, 
+                "Q3": 6.0, 
+                "standard-deviation": 1.6774850568543194, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 4.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 5.449664429530201
+            }, 
+            "contain_numeric": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric_density": 1.0, 
+            "correlation": {
+                "spearman": [
+                    0.0013785387174308603, 
+                    1.0, 
+                    0.9142882065468562, 
+                    0.8031860763387262, 
+                    0.8756909957699033, 
+                    -0.4294475601960573, 
+                    -0.34620656756176876, 
+                    -0.6059172658603433
+                ], 
+                "pearson": [
+                    0.010388830153897815, 
+                    1.0, 
+                    0.9519663549438705, 
+                    0.8360791978791418, 
+                    0.8922614731131505, 
+                    -0.47231012781915965, 
+                    -0.35926384669128636, 
+                    -0.5630705780275563
+                ], 
+                "columns": [
+                    "d3mIndex", 
+                    "cylinders", 
+                    "displacement", 
+                    "horsepower", 
+                    "weight", 
+                    "acceleration", 
+                    "model", 
+                    "origin"
+                ]
+            }, 
+            "integer": {
+                "Q1": 4.0, 
+                "count": 298, 
+                "Q3": 6.0, 
+                "standard-deviation": 1.6774850568543194, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 4.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 5.449664429530201
+            }, 
+            "contain_numeric_token": {
+                "count": 298, 
+                "ratio": 1.0
+            }
+        }, 
+        "length": {
+            "token": {
+                "average": 1.0, 
+                "standard-deviation": 0.0
+            }, 
+            "character": {
+                "average": 1.0, 
+                "standard-deviation": 0.0
+            }
+        }
+    }, 
+    "weight": {
+        "special_type": {
+            "num_filename": 0
+        }, 
+        "missing": {
+            "num_nonblank": 298, 
+            "leading_space": 0, 
+            "trailing_space": 0, 
+            "num_missing": 0
+        }, 
+        "distinct": {
+            "ratio_distinct_tokens": 0.912751677852349, 
+            "num_distinct_tokens_puncs": 273, 
+            "ratio_distinct_tokens_puncs": 0.45805369127516776, 
+            "num_distinct_values": 272, 
+            "ratio_distinct_values": 0.912751677852349, 
+            "num_distinct_tokens": 272
+        }, 
+        "frequent-entries": {
+            "most_common_numeric_tokens": {
+                "2155.0": 3, 
+                "1985.0": 3, 
+                "2300.0": 3, 
+                "2720.0": 3, 
+                "2125.0": 2, 
+                "1990.0": 2, 
+                "2110.0": 2, 
+                "2190.0": 2, 
+                "3725.0": 2, 
+                "1950.0": 2
+            }, 
+            "most_common_tokens_puncs": {
+                "0": 298, 
+                "2155": 3, 
+                "2300": 3, 
+                "1985": 3, 
+                "2720": 3, 
+                "2065": 2, 
+                "3672": 2, 
+                "2265": 2, 
+                "4215": 2, 
+                "2635": 2
+            }, 
+            "most_common_values": {
+                "2720.0": 3, 
+                "2155.0": 3, 
+                "1985.0": 3, 
+                "2300.0": 3, 
+                "1950.0": 2, 
+                "2950.0": 2, 
+                "2635.0": 2, 
+                "1835.0": 2, 
+                "1990.0": 2, 
+                "2395.0": 2
+            }, 
+            "most_common_tokens": {
+                "2155.0": 3, 
+                "1985.0": 3, 
+                "2300.0": 3, 
+                "2720.0": 3, 
+                "2125.0": 2, 
+                "1990.0": 2, 
+                "2110.0": 2, 
+                "2190.0": 2, 
+                "3725.0": 2, 
+                "1950.0": 2
+            }
+        }, 
+        "numeric_stats": {
+            "contain_numeric_token_puncs": {
+                "count": 596, 
+                "ratio": 1.0
+            }, 
+            "decimal": {
+                "Q1": 2227.0, 
+                "count": 298, 
+                "Q3": 3608.0, 
+                "standard-deviation": 834.131100995454, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 2880.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 2978.7046979865772
+            }, 
+            "numeric": {
+                "Q1": 2227.0, 
+                "count": 298, 
+                "Q3": 3608.0, 
+                "standard-deviation": 834.131100995454, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 2880.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 2978.7046979865772
+            }, 
+            "contain_numeric": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric_density": 0.8333333333333334, 
+            "correlation": {
+                "spearman": [
+                    0.04908546179953079, 
+                    0.8756909957699033, 
+                    0.9436322273410492, 
+                    0.8689002619525528, 
+                    1.0, 
+                    -0.3507824716381869, 
+                    -0.2799528461937652, 
+                    -0.6244712047658493
+                ], 
+                "pearson": [
+                    0.03851640584861958, 
+                    0.8922614731131505, 
+                    0.9259216405119981, 
+                    0.8464149353839987, 
+                    1.0, 
+                    -0.35987619234221907, 
+                    -0.30405302803568396, 
+                    -0.5821408234159455
+                ], 
+                "columns": [
+                    "d3mIndex", 
+                    "cylinders", 
+                    "displacement", 
+                    "horsepower", 
+                    "weight", 
+                    "acceleration", 
+                    "model", 
+                    "origin"
+                ]
+            }, 
+            "contain_numeric_token": {
+                "count": 298, 
+                "ratio": 1.0
+            }
+        }, 
+        "length": {
+            "token": {
+                "average": 6.0, 
+                "standard-deviation": 0.0
+            }, 
+            "character": {
+                "average": 6.0, 
+                "standard-deviation": 0.0
+            }
+        }
+    }, 
+    "displacement": {
+        "special_type": {
+            "num_filename": 0
+        }, 
+        "missing": {
+            "num_nonblank": 298, 
+            "leading_space": 0, 
+            "trailing_space": 0, 
+            "num_missing": 0
+        }, 
+        "distinct": {
+            "ratio_distinct_tokens": 0.2550335570469799, 
+            "num_distinct_tokens_puncs": 77, 
+            "ratio_distinct_tokens_puncs": 0.12919463087248323, 
+            "num_distinct_values": 76, 
+            "ratio_distinct_values": 0.2550335570469799, 
+            "num_distinct_tokens": 76
+        }, 
+        "frequent-entries": {
+            "most_common_numeric_tokens": {
+                "97.0": 16, 
+                "350.0": 16, 
+                "250.0": 16, 
+                "318.0": 13, 
+                "225.0": 12, 
+                "98.0": 12, 
+                "302.0": 11, 
+                "140.0": 10, 
+                "232.0": 9, 
+                "121.0": 8
+            }, 
+            "most_common_tokens_puncs": {
+                "0": 297, 
+                "97": 17, 
+                "250": 16, 
+                "350": 16, 
+                "318": 13, 
+                "98": 12, 
+                "225": 12, 
+                "302": 11, 
+                "140": 10, 
+                "232": 9
+            }, 
+            "most_common_values": {
+                "350.0": 16, 
+                "97.0": 16, 
+                "250.0": 16, 
+                "318.0": 13, 
+                "98.0": 12, 
+                "225.0": 12, 
+                "302.0": 11, 
+                "140.0": 10, 
+                "232.0": 9, 
+                "151.0": 8
+            }, 
+            "most_common_tokens": {
+                "97.0": 16, 
+                "350.0": 16, 
+                "250.0": 16, 
+                "318.0": 13, 
+                "225.0": 12, 
+                "98.0": 12, 
+                "302.0": 11, 
+                "140.0": 10, 
+                "232.0": 9, 
+                "121.0": 8
+            }
+        }, 
+        "numeric_stats": {
+            "contain_numeric_token_puncs": {
+                "count": 596, 
+                "ratio": 1.0
+            }, 
+            "decimal": {
+                "Q1": 105.0, 
+                "count": 298, 
+                "Q3": 259.5, 
+                "standard-deviation": 101.77067510919943, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 151.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 192.81711409395973
+            }, 
+            "numeric": {
+                "Q1": 105.0, 
+                "count": 298, 
+                "Q3": 259.5, 
+                "standard-deviation": 101.77067510919943, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 151.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 192.81711409395973
+            }, 
+            "contain_numeric": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric_density": 0.7898448519040903, 
+            "correlation": {
+                "spearman": [
+                    0.05049685127268983, 
+                    0.9142882065468562, 
+                    1.0, 
+                    0.8661598212476783, 
+                    0.9436322273410492, 
+                    -0.4500045475476624, 
+                    -0.3047216640100057, 
+                    -0.7096788256789243
+                ], 
+                "pearson": [
+                    0.03605742112772869, 
+                    0.9519663549438705, 
+                    1.0, 
+                    0.883358062566008, 
+                    0.9259216405119981, 
+                    -0.5006432124369199, 
+                    -0.3782506596656459, 
+                    -0.618816933665553
+                ], 
+                "columns": [
+                    "d3mIndex", 
+                    "cylinders", 
+                    "displacement", 
+                    "horsepower", 
+                    "weight", 
+                    "acceleration", 
+                    "model", 
+                    "origin"
+                ]
+            }, 
+            "contain_numeric_token": {
+                "count": 298, 
+                "ratio": 1.0
+            }
+        }, 
+        "length": {
+            "token": {
+                "average": 4.758389261744966, 
+                "standard-deviation": 0.428779596344327
+            }, 
+            "character": {
+                "average": 4.758389261744966, 
+                "standard-deviation": 0.428779596344327
+            }
+        }
+    }, 
+    "horsepower": {
+        "special_type": {
+            "num_filename": 0
+        }, 
+        "missing": {
+            "num_nonblank": 293, 
+            "leading_space": 0, 
+            "trailing_space": 0, 
+            "num_missing": 5
+        }, 
+        "distinct": {
+            "ratio_distinct_tokens": 0.2935153583617747, 
+            "num_distinct_tokens_puncs": 87, 
+            "ratio_distinct_tokens_puncs": 0.14846416382252559, 
+            "num_distinct_values": 86, 
+            "ratio_distinct_values": 0.2935153583617747, 
+            "num_distinct_tokens": 86
+        }, 
+        "frequent-entries": {
+            "most_common_numeric_tokens": {
+                "90.0": 17, 
+                "100.0": 15, 
+                "150.0": 14, 
+                "88.0": 13, 
+                "110.0": 12, 
+                "67.0": 11, 
+                "75.0": 11, 
+                "105.0": 11, 
+                "70.0": 10, 
+                "97.0": 8
+            }, 
+            "most_common_tokens_puncs": {
+                "0": 293, 
+                "90": 17, 
+                "100": 15, 
+                "150": 14, 
+                "88": 13, 
+                "110": 12, 
+                "67": 11, 
+                "75": 11, 
+                "105": 11, 
+                "70": 10
+            }, 
+            "most_common_values": {
+                "90.0": 17, 
+                "100.0": 15, 
+                "150.0": 14, 
+                "88.0": 13, 
+                "110.0": 12, 
+                "67.0": 11, 
+                "75.0": 11, 
+                "105.0": 11, 
+                "70.0": 10, 
+                "97.0": 8
+            }, 
+            "most_common_tokens": {
+                "90.0": 17, 
+                "100.0": 15, 
+                "150.0": 14, 
+                "88.0": 13, 
+                "110.0": 12, 
+                "67.0": 11, 
+                "75.0": 11, 
+                "105.0": 11, 
+                "70.0": 10, 
+                "97.0": 8
+            }
+        }, 
+        "numeric_stats": {
+            "contain_numeric_token_puncs": {
+                "count": 586, 
+                "ratio": 1.0
+            }, 
+            "decimal": {
+                "Q1": 76.0, 
+                "count": 293, 
+                "Q3": 122.0, 
+                "standard-deviation": 36.860384521537476, 
+                "ratio": 1.0, 
+                "num_positive": 293, 
+                "num_outlier": 5, 
+                "Q2": 92.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 103.21160409556315
+            }, 
+            "numeric": {
+                "Q1": 76.0, 
+                "count": 293, 
+                "Q3": 122.0, 
+                "standard-deviation": 36.860384521537476, 
+                "ratio": 1.0, 
+                "num_positive": 293, 
+                "num_outlier": 5, 
+                "Q2": 92.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 103.21160409556315
+            }, 
+            "contain_numeric": {
+                "count": 293, 
+                "ratio": 1.0
+            }, 
+            "numeric_density": 0.7735703245749613, 
+            "correlation": {
+                "spearman": [
+                    0.0940014533634863, 
+                    0.8031860763387262, 
+                    0.8661598212476783, 
+                    1.0, 
+                    0.8689002619525528, 
+                    -0.620406567730578, 
+                    -0.3975748519311404, 
+                    -0.5130969468255901
+                ], 
+                "pearson": [
+                    0.06818608601059913, 
+                    0.8360791978791418, 
+                    0.883358062566008, 
+                    1.0, 
+                    0.8464149353839987, 
+                    -0.6649794861609155, 
+                    -0.42608029912141393, 
+                    -0.447889821425295
+                ], 
+                "columns": [
+                    "d3mIndex", 
+                    "cylinders", 
+                    "displacement", 
+                    "horsepower", 
+                    "weight", 
+                    "acceleration", 
+                    "model", 
+                    "origin"
+                ]
+            }, 
+            "contain_numeric_token": {
+                "count": 293, 
+                "ratio": 1.0
+            }
+        }, 
+        "length": {
+            "token": {
+                "average": 4.416382252559727, 
+                "standard-deviation": 0.4938018749850432
+            }, 
+            "character": {
+                "average": 4.416382252559727, 
+                "standard-deviation": 0.4938018749850432
+            }
+        }
+    }, 
+    "model": {
+        "special_type": {
+            "num_filename": 0
+        }, 
+        "missing": {
+            "num_nonblank": 298, 
+            "leading_space": 0, 
+            "trailing_space": 0, 
+            "num_missing": 0
+        }, 
+        "distinct": {
+            "ratio_distinct_tokens": 0.0436241610738255, 
+            "num_distinct_tokens_puncs": 13, 
+            "ratio_distinct_tokens_puncs": 0.0436241610738255, 
+            "num_distinct_values": 13, 
+            "ratio_distinct_values": 0.0436241610738255, 
+            "num_distinct_tokens": 13
+        }, 
+        "frequent-entries": {
+            "most_common_numeric_tokens": {
+                "76": 30, 
+                "73": 29, 
+                "78": 29, 
+                "81": 25, 
+                "80": 24, 
+                "79": 23, 
+                "75": 22, 
+                "74": 22, 
+                "77": 21, 
+                "70": 21
+            }, 
+            "most_common_tokens_puncs": {
+                "76": 30, 
+                "73": 29, 
+                "78": 29, 
+                "81": 25, 
+                "80": 24, 
+                "79": 23, 
+                "75": 22, 
+                "74": 22, 
+                "77": 21, 
+                "70": 21
+            }, 
+            "most_common_values": {
+                "76": 30, 
+                "73": 29, 
+                "78": 29, 
+                "81": 25, 
+                "80": 24, 
+                "79": 23, 
+                "75": 22, 
+                "74": 22, 
+                "77": 21, 
+                "70": 21
+            }, 
+            "most_common_tokens": {
+                "76": 30, 
+                "73": 29, 
+                "78": 29, 
+                "81": 25, 
+                "80": 24, 
+                "79": 23, 
+                "75": 22, 
+                "74": 22, 
+                "77": 21, 
+                "70": 21
+            }, 
+            "most_common_alphanumeric_tokens": {
+                "76": 30, 
+                "73": 29, 
+                "78": 29, 
+                "81": 25, 
+                "80": 24, 
+                "79": 23, 
+                "75": 22, 
+                "74": 22, 
+                "77": 21, 
+                "70": 21
+            }
+        }, 
+        "numeric_stats": {
+            "contain_numeric_token_puncs": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric": {
+                "Q1": 73.0, 
+                "count": 298, 
+                "Q3": 79.0, 
+                "standard-deviation": 3.5775322233075584, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 76.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 76.07718120805369
+            }, 
+            "contain_numeric": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric_density": 1.0, 
+            "correlation": {
+                "spearman": [
+                    0.028653858788813446, 
+                    -0.34620656756176876, 
+                    -0.3047216640100057, 
+                    -0.3975748519311404, 
+                    -0.2799528461937652, 
+                    0.26302004857120037, 
+                    1.0, 
+                    0.20834106684496984
+                ], 
+                "pearson": [
+                    0.028053461960677022, 
+                    -0.35926384669128636, 
+                    -0.3782506596656459, 
+                    -0.42608029912141393, 
+                    -0.30405302803568396, 
+                    0.2797516455804005, 
+                    1.0, 
+                    0.21578090299266742
+                ], 
+                "columns": [
+                    "d3mIndex", 
+                    "cylinders", 
+                    "displacement", 
+                    "horsepower", 
+                    "weight", 
+                    "acceleration", 
+                    "model", 
+                    "origin"
+                ]
+            }, 
+            "integer": {
+                "Q1": 73.0, 
+                "count": 298, 
+                "Q3": 79.0, 
+                "standard-deviation": 3.5775322233075584, 
+                "ratio": 1.0, 
+                "num_positive": 298, 
+                "num_outlier": 0, 
+                "Q2": 76.0, 
+                "num_-1": 0, 
+                "num_0": 0, 
+                "num_1": 0, 
+                "num_negative": 0, 
+                "mean": 76.07718120805369
+            }, 
+            "contain_numeric_token": {
+                "count": 298, 
+                "ratio": 1.0
+            }
+        }, 
+        "length": {
+            "token": {
+                "average": 2.0, 
+                "standard-deviation": 0.0
+            }, 
+            "character": {
+                "average": 2.0, 
+                "standard-deviation": 0.0
+            }
+        }
+    }, 
+    "d3mIndex": {
+        "special_type": {
+            "num_filename": 0
+        }, 
+        "missing": {
+            "num_nonblank": 298, 
+            "leading_space": 0, 
+            "trailing_space": 0, 
+            "num_missing": 0
+        }, 
+        "distinct": {
+            "ratio_distinct_tokens": 1.0, 
+            "num_distinct_tokens_puncs": 298, 
+            "ratio_distinct_tokens_puncs": 1.0, 
+            "num_distinct_values": 298, 
+            "ratio_distinct_values": 1.0, 
+            "num_distinct_tokens": 298
+        }, 
+        "frequent-entries": {
+            "most_common_numeric_tokens": {
+                "164": 1, 
+                "90": 1, 
+                "166": 1, 
+                "167": 1, 
+                "160": 1, 
+                "94": 1, 
+                "0": 1, 
+                "162": 1, 
+                "8": 1, 
+                "96": 1
+            }, 
+            "most_common_tokens_puncs": {
+                "164": 1, 
+                "90": 1, 
+                "166": 1, 
+                "167": 1, 
+                "160": 1, 
+                "94": 1, 
+                "0": 1, 
+                "162": 1, 
+                "8": 1, 
+                "96": 1
+            }, 
+            "most_common_values": {
+                "88": 1, 
+                "115": 1, 
+                "247": 1, 
+                "116": 1, 
+                "111": 1, 
+                "110": 1, 
+                "113": 1, 
+                "112": 1, 
+                "82": 1, 
+                "83": 1
+            }, 
+            "most_common_tokens": {
+                "164": 1, 
+                "90": 1, 
+                "166": 1, 
+                "167": 1, 
+                "160": 1, 
+                "94": 1, 
+                "0": 1, 
+                "162": 1, 
+                "8": 1, 
+                "96": 1
+            }, 
+            "most_common_alphanumeric_tokens": {
+                "164": 1, 
+                "90": 1, 
+                "166": 1, 
+                "167": 1, 
+                "160": 1, 
+                "94": 1, 
+                "0": 1, 
+                "162": 1, 
+                "8": 1, 
+                "96": 1
+            }
+        }, 
+        "numeric_stats": {
+            "contain_numeric_token_puncs": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric": {
+                "Q1": 74.25, 
+                "count": 298, 
+                "Q3": 222.75, 
+                "standard-deviation": 86.1694067907321, 
+                "ratio": 1.0, 
+                "num_positive": 297, 
+                "num_outlier": 0, 
+                "Q2": 148.5, 
+                "num_-1": 0, 
+                "num_0": 1, 
+                "num_1": 1, 
+                "num_negative": 0, 
+                "mean": 148.5
+            }, 
+            "contain_numeric": {
+                "count": 298, 
+                "ratio": 1.0
+            }, 
+            "numeric_density": 1.0, 
+            "correlation": {
+                "spearman": [
+                    1.0, 
+                    0.0013785387174308603, 
+                    0.05049685127268983, 
+                    0.0940014533634863, 
+                    0.04908546179953079, 
+                    -0.08255892145666173, 
+                    0.028653858788813446, 
+                    -0.07206508550052979
+                ], 
+                "pearson": [
+                    1.0, 
+                    0.010388830153897815, 
+                    0.03605742112772869, 
+                    0.06818608601059913, 
+                    0.03851640584861958, 
+                    -0.07317366533331487, 
+                    0.028053461960677022, 
+                    -0.06913891070356507
+                ], 
+                "columns": [
+                    "d3mIndex", 
+                    "cylinders", 
+                    "displacement", 
+                    "horsepower", 
+                    "weight", 
+                    "acceleration", 
+                    "model", 
+                    "origin"
+                ]
+            }, 
+            "integer": {
+                "Q1": 74.25, 
+                "count": 298, 
+                "Q3": 222.75, 
+                "standard-deviation": 86.1694067907321, 
+                "ratio": 1.0, 
+                "num_positive": 297, 
+                "num_outlier": 0, 
+                "Q2": 148.5, 
+                "num_-1": 0, 
+                "num_0": 1, 
+                "num_1": 1, 
+                "num_negative": 0, 
+                "mean": 148.5
+            }, 
+            "contain_numeric_token": {
+                "count": 298, 
+                "ratio": 1.0
+            }
+        }, 
+        "length": {
+            "token": {
+                "average": 2.6308724832214767, 
+                "standard-deviation": 0.5486315180585972
+            }, 
+            "character": {
+                "average": 2.6308724832214767, 
+                "standard-deviation": 0.5486315180585972
+            }
+        }
+    }
+}

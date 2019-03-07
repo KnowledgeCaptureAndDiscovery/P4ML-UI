@@ -1,0 +1,14 @@
+
+{
+        "problem_schema": "dsbox-dataNew1-18/185_baseball/TRAIN/problem_TRAIN/problemDoc.json",
+        "problem_root": "dsbox-dataNew1-18/185_baseball/TRAIN/problem_TRAIN",
+        "dataset_schema": "dsbox-dataNew1-18/185_baseball/TRAIN/dataset_TRAIN/datasetDoc.json",
+        "training_data_root": "dsbox-dataNew1-18/185_baseball/TRAIN/dataset_TRAIN",
+        "pipeline_logs_root": "dsbox-dataNew1-18/executables/185_baseball/logs",
+        "executables_root": "dsbox-dataNew1-18/executables/185_baseball/executables",
+        "temp_storage_root": "dsbox-dataNew1-18/executables/185_baseball/temp",
+        "timeout": 5,
+        "cpus"  : "10",
+        "ram"   : "16Gi"
+}
+     

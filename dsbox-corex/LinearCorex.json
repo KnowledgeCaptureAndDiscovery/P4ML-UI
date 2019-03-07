@@ -1,0 +1,122 @@
+{
+  "id": "76a565ac5d16a1ce0f16114d8edd1558bcf844fce95240a17072e242af74ffa3",
+  "name": "dsbox.linearcorex",
+  "common_name": "DSBox Linear CorEx",
+  "description": "Return components/latent factors that explain the most multivariate mutual information in the data. For comparison, PCA returns components explaining the most variance in the data.",
+  "languages": [
+    "Python2"
+  ],
+  "library": "dsbox",
+  "version": "0.5",
+  "source_code": "https://github.com/gregversteeg/LinearCorex.git",
+  "is_class": "True",
+  "attributes": [
+    {
+      "shape": "n_hidden, n_features",
+      "type": "array",
+      "name": "ws",
+      "description": "Weight matrix for constructing latent factors (after preprocessing). "
+    }
+  ],
+  "parameters": [
+    {
+      "type": "int",
+      "name": "n_hidden",
+      "description": "Number of components or latent factors to use."
+    },
+    {
+      "type": "int",
+      "name": "max_iter",
+      "description": "Maximum number of iterations taken for the solvers to converge. "
+    },
+    {
+      "type": "int",
+      "name": "seed",
+      "description": "The seed of the pseudo random number generator to use. "
+    },
+    {
+      "type": "float",
+      "name": "tol",
+      "description": "Tolerance for stopping criteria. "
+    },
+    {
+      "type": "int",
+      "name": "verbose",
+      "description": "Set True for verbose output or >1 to get even more verbosity."
+    }
+  ],
+  "methods_available": [
+    {
+      "name": "fit",
+      "id": "dsbox.linearcorex.Corex.fit",
+      "description": "'Fit the model according to the given training data.\n",
+      "returns": {
+        "type": "object",
+        "name": "self",
+        "description": "Returns self. '"
+        },
+      "parameters": [
+        {
+          "shape": "n_samples, n_features",
+          "type": "array-like, sparse matrix",
+          "name": "X",
+          "description": "Training vector, where n_samples is the number of samples and n_features is the number of features. "
+        }
+        ]
+    {
+      "name": "transform",
+      "id": "dsbox.linearcorex.Corex.transform",
+      "description": "'Transform data according to learned model.\n",
+      "returns": {
+        "type": "array-like",
+        "shape": "n_hidden, n_features",
+        "name": "Y",
+        "description": "Returns latent factors/components for each sample. '"
+      },
+      "parameters": [
+        {
+          "shape": "n_samples, n_features",
+          "type": "array-like, sparse matrix",
+          "name": "X",
+          "description": "Training vector, where n_samples is the number of samples and n_features is the number of features. "
+        }
+        ]
+      }
+    }
+    ],
+  "algorithm_type": "Dimensionality Reduction",
+  "learning_type": "Unsupervised learning",
+  "task_type": "Feature extraction",
+  "tags": [
+    "factor analysis"
+  ],
+  "is_deterministic": "False",
+  "handles_classification": "False",
+  "handles_regression": "False",
+  "handles_multiclass": "False",
+  "handles_multilabel": "False",
+  "input_type": [
+    "DENSE",
+    "SPARSE"
+  ],
+  "output_type": [
+    "FEATURES"
+  ],
+  "team": "ISI",
+  "metadata": "",
+  "schema_version": "1.0",
+  "build": {
+    "type": "pip",
+    "cmd": "pip install linearcorex"
+  },
+  "compute_resources": {
+    "sample_size": [100, 100000],
+    "sample_unit": ["MB", "MB"],
+    "num_nodes": [1, 1],
+    "cores_per_node": [4, 4],
+    "gpus_per_node": [0, 0],
+    "mem_per_node": [1, 1000],
+    "disk_per_node": [1, 1000],
+    "mem_per_gpu": [0, 0]
+  }
+}

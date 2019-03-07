@@ -1,0 +1,3 @@
+git+ssh://git@gitlab.datadrivendiscovery.org/d3m/types.git
+git+ssh://git@gitlab.datadrivendiscovery.org/d3m/primitive-interfaces.git
+

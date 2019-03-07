@@ -1,0 +1,10 @@
+{
+    "name": "c81b52ea-55d8-47d0-b305-e371f08363c4",
+    "pipeline_rank": 8,
+    "primitives": [
+        "sklearn.preprocessing.Imputer",
+        "sklearn.preprocessing.LabelEncoder",
+        "d3m.primitives.common_primitives.RandomForestClassifier"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

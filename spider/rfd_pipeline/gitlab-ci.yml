@@ -1,0 +1,76 @@
+stages:
+  - run_pipeline
+  - validate_results
+  - push_submission
+
+variables:
+
+# TO BE CONFIGURED #
+ 
+ # VALIDATION_DATA: ID of the seed dataset to test the execution of the pipeline
+ # OPTIONS: o_185	o_196 o_313 o_38 o_4550	r_22 r_26 r_30 r_32 r_49 r_60
+ 
+ VALIDATION_DATA: o_4550
+ 
+ # JPL_IMAGE_LABEL: Label of the Docker image to execute the pipeline.
+ # The images are listed and stored at this address: https://gitlab.datadrivendiscovery.org/jpl/docker_images/container_registry
+ # OPTIONS: python2.7_base python3.5_base python3.6_base python2.7_complete python3.5_complete python3.6_complete
+ 
+ JPL_IMAGE_LABEL: python2.7_complete
+
+ # END #
+ EXECUTION_REGISTRY: registry.datadrivendiscovery.org
+ EXECUTION_REGISTRY_IMAGE: registry.datadrivendiscovery.org/ta1_pipelines/validation_images/$JPL_IMAGE_LABEL
+ VALIDATION_REGISTRY_IMAGE: registry.datadrivendiscovery.org/ta1_pipelines/validation_images:latest
+ 
+run_pipeline:
+  stage: run_pipeline
+  image: $EXECUTION_REGISTRY_IMAGE
+  script:
+    - cd $CI_PROJECT_DIR
+    - mkdir validation_output
+    - chmod 777 validation_output
+    - chmod 777 ta1-pipeline
+    - echo '{ "problem_schema":"/validation_datasets/'$VALIDATION_DATA'/problemSchema.json", "dataset_schema":"/validation_datasets/'$VALIDATION_DATA'/data/dataSchema.json", "data_root":"/validation_datasets/'$VALIDATION_DATA'/data", "output_file":"'$CI_PROJECT_DIR'/validation_output/predicted_targets.csv"}' > ta1-pipeline-config.json
+    - ./ta1-pipeline
+  when: manual
+  allow_failure: false
+  artifacts:
+    paths:
+      - validation_output
+    expire_in: 1hr
+  tags:
+    - docker
+    - d3m
+    
+validate_results:
+  stage: validate_results
+  image: $VALIDATION_REGISTRY_IMAGE
+  script:
+    - cd $CI_PROJECT_DIR
+    - python /validate_results.py validation_output/ /validation_datasets/$VALIDATION_DATA
+  when: on_success
+  dependencies:
+    - run_pipeline
+  tags:
+    - docker 
+    - d3m
+    
+push_submission:
+  stage: push_submission
+  script:
+    - cd $CI_PROJECT_DIR
+    - touch Dockerfile_submit
+    - echo 'FROM registry.datadrivendiscovery.org/jpl/docker_images:'$JPL_IMAGE_LABEL > Dockerfile_submit
+    - echo 'ADD ./ /home/' >> Dockerfile_submit
+    - docker build -f Dockerfile_submit -t $CI_REGISTRY_IMAGE/$CI_PROJECT_PATH_SLUG:latest .
+    - docker push $CI_REGISTRY_IMAGE/$CI_PROJECT_PATH_SLUG:latest
+  when: on_success
+  dependencies:
+    - validate_results
+  before_script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $EXECUTION_REGISTRY
+  tags:
+    - shell
+
+

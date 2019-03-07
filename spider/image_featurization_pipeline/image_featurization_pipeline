@@ -1,0 +1,83 @@
+#!/usr/bin/env python2
+
+from os import path
+
+from sklearn import preprocessing
+import pandas as pd
+import numpy as np
+import json
+
+from sklearn.feature_extraction import DictVectorizer as DV
+from sklearn.svm import SVC
+
+# Example for the documentation of the TA1 pipeline submission process
+#
+# It executes a TA1 pipeline using a image_featurization_pipeline.json file that follows this structure:
+# {
+#   "problem_schema":"path/to/problem_schema.json",
+#   "dataset_schema":"path/to/dataset_schema.json",
+#   "data_root":"path/to/data/root/folder/",
+#   "output_file":"path/to/output/file"
+# }
+
+# Load the json configuration file
+with open("image_featurization_pipeline.json", 'r') as inputFile:
+    jsonCall = json.load(inputFile)
+    inputFile.close()
+
+# Load the json dataset description file
+with open(jsonCall['dataset_schema'], 'r') as inputFile:
+    datasetSchema = json.load(inputFile)
+    inputFile.close()
+
+# Load the input files from the data_root folder path information, replacing missing values with zeros
+dataRoot = jsonCall['data_root']
+trainData = pd.read_csv( path.join(dataRoot, 'trainData.csv.gz'), header=0).fillna('0').replace('', '0')
+trainTargets = pd.read_csv( path.join(dataRoot, 'trainTargets.csv.gz'), header=0).fillna('0').replace('', '0')
+testData = pd.read_csv( path.join(dataRoot, 'testData.csv.gz'), header=0).fillna('0').replace('', '0')
+
+# Initialize the SVM model
+model = SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf', max_iter=-1, probability=False, random_state=None, shrinking=True, tol=0.001, verbose=False)
+
+# Encode the categorical data in training data
+trainDataCatLabels = []
+trainDataLabelEncoders = dict()
+
+for colDesc in datasetSchema['trainData']['trainData']:
+
+    if colDesc['varType']=='categorical':
+        trainDataCatLabels.append(colDesc['varName'])
+        trainDataLabelEncoders[colDesc['varName']] = preprocessing.LabelEncoder().fit(trainData[colDesc['varName']])
+        trainData[colDesc['varName']] = trainDataLabelEncoders[colDesc['varName']].transform(trainData[colDesc['varName']])
+
+# Encode the categorical data in the test targets, uses the first target of the dataset as a target
+trainTargetsCatLabel = ''
+trainTargetsLabelEncoder = preprocessing.LabelEncoder()
+
+for colDesc in datasetSchema['trainData']['trainTargets']:
+
+    if colDesc['varType']=='categorical':
+        trainTargetsCatLabel = colDesc['varName']
+        trainTargetsLabelEncoder = trainTargetsLabelEncoder.fit(trainTargets[colDesc['varName']])
+        trainTargets = trainTargetsLabelEncoder.transform(trainTargets[colDesc['varName']])
+
+    if colDesc['varRole']=='target':
+        break
+
+# Train the model
+trainedModel = model.fit(trainData,trainTargets)
+
+# Encode the testData using the previous label encoders
+for colLabel in trainDataCatLabels:
+
+    testData[colLabel] = trainDataLabelEncoders[colLabel].transform(testData[colLabel])
+
+# Predicts targets from the test data
+predictedTargets = trainedModel.predict(testData)
+
+# Reverse the label encoding for predicted targets
+predictedTargets = trainTargetsLabelEncoder.inverse_transform(predictedTargets)
+
+# Outputs the predicted targets in the location specified in the JSON configuration file
+with open(jsonCall['output_file'], 'w') as outputFile:
+    output = pd.DataFrame(predictedTargets).to_csv(outputFile, index_label='d3mIndex', header=[trainTargetsCatLabel])

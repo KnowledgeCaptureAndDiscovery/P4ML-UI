@@ -1,0 +1,10 @@
+{
+    "name": "1817805c-b05c-4e45-be35-11a534665fd8",
+    "pipeline_rank": 6,
+    "primitives": [
+        "d3m.primitives.sklearn_wrap.SKAdaBoostClassifier",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.preprocessing.LabelEncoder"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

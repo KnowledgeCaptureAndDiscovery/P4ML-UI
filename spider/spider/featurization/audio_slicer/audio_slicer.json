@@ -1,0 +1,77 @@
+{
+  "id": "a0a60c4c-4e69-3ebe-81c9-7432c5b41c38",
+  "name": "spider.featurization.audio_slicer.AudioSlicer",
+  "common_name": "AudioSlicer",
+  "team": "spider",
+  "description": "Utility for splitting audio data stored in a numpy array into equal-length clips with optional overlap",
+  "languages": ["python2.7"],
+  "library": "spider",
+  "version": "1.1",
+  "schema_version": 1.0,
+  "is_class": true,
+  "tags": [
+    "feature_extraction",
+    "audio"
+  ],
+  "parameters":
+  [
+    {
+      "name": "sampling_rate",
+      "description": "Uniform audio sampling rate",
+      "type": "int",
+      "optional": true,
+      "default": "44100",
+      "is_hyperparameter": false
+    },
+    {
+      "name": "frame_length",
+      "description": "Duration in seconds that defines the length of the sliced clips",
+      "type": "float",
+      "optional": true,
+      "default": "3.0",
+      "is_hyperparameter": true
+    },
+    {
+      "name": "overlap",
+      "description": "Duration in seconds that defines the step size taken along the time series during adjacent clip extraction",
+      "type": "float",
+      "optional": true,
+      "default": "0.0",
+      "is_hyperparameter": true
+    },
+    {
+      "name": "pad",
+      "description": "Indicates whether clips shorter than frame_length should be padded with zeros to a duration of exactly frame_length",
+      "type": "bool",
+      "optional": true,
+      "default": "True",
+      "is_hyperparameter": true
+    }
+  ],
+  "task_type": ["Data Preprocessing"],
+  "is_deterministic": true,
+  "handles_classification": false,
+  "handles_regression": false,
+  "handles_multiclass": false,
+  "handles_multilabel": false,
+  "build":
+  [
+    {
+      "type": "pip",
+      "package": "spider"
+    }
+  ],
+  "compute_resources":
+  {
+    "sample_size": [13.6, 63.4, 580.1],
+    "sample_unit": ["MB", "MB", "MB"],
+    "num_nodes": [1, 1, 1],
+    "cores_per_node": [1, 1, 1],
+    "gpus_per_node": [0, 0, 0],
+    "mem_per_node": [0.08, 0.20, 2.09],
+    "disk_per_node": [0, 0, 0],
+    "mem_per_gpu": [0, 0, 0],
+    "expected_running_time": [0.26, 0.80, 7.52]
+  },
+  "interface_type": "featurization"
+}

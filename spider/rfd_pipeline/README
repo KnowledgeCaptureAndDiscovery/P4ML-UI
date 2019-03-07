@@ -1,0 +1,4 @@
+taskType: classification
+taskSubType: multiClass
+
+Can handle numerical and categorical data, organized into n by d arrays (where n is number of inputs and d is number of features).  Replaces missing data with 0s.

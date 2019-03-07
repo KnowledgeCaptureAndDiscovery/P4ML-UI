@@ -1,0 +1,10 @@
+{
+    "name": "bf8ec50c-b44e-4c08-b8e0-dc7f4eb2b4db",
+    "pipeline_rank": 2,
+    "primitives": [
+        "sklearn.feature_extraction.text.HashingVectorizer",
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis"
+    ],
+    "problem_id": "32_wa_problem_TRAIN"
+}
