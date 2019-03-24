@@ -54,6 +54,7 @@ class ExecutionHelper(object):
         # Parse arguments
         args = []
         kwargs = {}
+        print(imputation)
 
 
         if primitive.name == "Imputer":
@@ -200,7 +201,8 @@ class ExecutionHelper(object):
             else:
                 if primitive.name == "Imputer":
                     primitive.executables = self.instantiate_primitive_imputation(primitive,imputation)
-                primitive.executables = self.instantiate_primitive(primitive)
+                else:
+                    primitive.executables = self.instantiate_primitive(primitive)
                 # print(primitive.executables)
                 if primitive.executables is None:
                     primitive.finished = True

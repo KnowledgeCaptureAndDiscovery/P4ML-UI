@@ -1,0 +1,10 @@
+{
+    "name": "d29b0ce6-357c-4159-9174-61ce558179db",
+    "pipeline_rank": 1,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.ensemble.weight_boosting.AdaBoostClassifier"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

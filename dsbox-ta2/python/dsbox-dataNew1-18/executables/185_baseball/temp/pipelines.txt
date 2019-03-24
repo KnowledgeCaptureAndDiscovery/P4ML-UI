@@ -1,4 +1,1096 @@
 # Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
-9210c4b1-7fed-4755-8b27-1d96af3c3a4d ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5846']
-6c018424-7856-4f01-80b1-7c14591b30d7 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5775']
-83e5a343-90a5-482b-bbc0-75a888e8ac6b ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.4739']
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']
+# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
+f618071e-623e-4e6d-b539-b284d8aefd28 ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5903']
+5433d00e-a4db-4d09-a653-63208c8cab23 ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5790']
+497fcc9e-0c81-4cb7-8edc-dc94a1d94e1a ( [Label Encoder, Imputer, LinearSVC] ) : ['F1_MACRO = 0.5512']

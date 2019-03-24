@@ -1,0 +1,10 @@
+{
+    "name": "47773afe-acdb-4421-95e1-7901aade0e0b",
+    "pipeline_rank": 7,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.naive_bayes.GaussianNB"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

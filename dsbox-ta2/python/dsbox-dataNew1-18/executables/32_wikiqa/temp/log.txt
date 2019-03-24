@@ -1,0 +1,3 @@
+Task type: TaskType.CLASSIFICATION
+Metrics: [<Metric.F1: 'f1'>]
+Data profile: {<DataProfileType.NUMERICAL: 'Numerical'>: False, <DataProfileType.MISSING_VALUES: 'Missing Values'>: False, <DataProfileType.UNIQUE: 'Unique'>: False, <DataProfileType.NEGATIVE: 'Negative'>: False, <DataProfileType.TEXT: 'Text'>: True, <DataProfileType.LIST: 'List'>: False}

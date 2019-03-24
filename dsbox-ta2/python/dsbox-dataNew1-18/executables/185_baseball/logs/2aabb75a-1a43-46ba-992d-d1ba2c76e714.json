@@ -1,0 +1,10 @@
+{
+    "name": "2aabb75a-1a43-46ba-992d-d1ba2c76e714",
+    "pipeline_rank": 4,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

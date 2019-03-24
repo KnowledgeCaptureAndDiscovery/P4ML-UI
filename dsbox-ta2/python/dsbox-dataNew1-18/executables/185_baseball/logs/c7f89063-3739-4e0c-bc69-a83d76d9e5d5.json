@@ -1,0 +1,10 @@
+{
+    "name": "c7f89063-3739-4e0c-bc69-a83d76d9e5d5",
+    "pipeline_rank": 1,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.ensemble.gradient_boosting.GradientBoostingClassifier"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

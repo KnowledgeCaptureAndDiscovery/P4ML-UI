@@ -1,0 +1,10 @@
+{
+    "name": "bb798636-3112-40c5-873d-bba9880b3e33",
+    "pipeline_rank": 9,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.neural_network.multilayer_perceptron.MLPClassifier"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

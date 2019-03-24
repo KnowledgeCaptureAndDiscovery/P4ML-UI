@@ -1,0 +1,10 @@
+{
+    "name": "af63f122-d5fd-4597-8fea-38bcb6c3eac8",
+    "pipeline_rank": 8,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.naive_bayes.MultinomialNB"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}

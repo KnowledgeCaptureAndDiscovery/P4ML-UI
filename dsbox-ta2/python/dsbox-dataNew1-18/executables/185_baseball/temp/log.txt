@@ -14,3 +14,3539 @@ L2 Pipelines:
 L2 Executed Pipelines:
 -------------
 [[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]
+
+L1 Pipelines:
+-------------
+[[LinearSVC], [LogisticRegression], [DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[]
+
+L2 Executed Pipelines:
+-------------
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC]]

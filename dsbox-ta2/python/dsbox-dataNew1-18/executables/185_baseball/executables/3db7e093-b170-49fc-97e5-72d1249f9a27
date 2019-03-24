@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+
+import sys
+sys.path.append('/Users/chenling/Desktop/DSBOX/P4ML-UI/dsbox-ta2/python')
+from dsbox_dev_setup import path_setup
+path_setup()
+
+import json
+import numpy
+import pandas
+import os.path
+import sklearn.externals
+from dsbox.executer.executionhelper import ExecutionHelper
+from dsbox.planner.common.data_manager import Dataset, DataManager
+from dsbox.planner.common.problem_manager import Problem
+from dsbox.schema.problem_schema import TaskType, Metric
+
+# Pipeline : [Label Encoder, Imputer, ExtraTreesClassifier]
+
+
+curdir = os.path.dirname(os.path.abspath(__file__))
+numpy.set_printoptions(threshold=numpy.nan)
+
+# Defaults unless overridden by config json
+dataset_schema = 'dsbox-dataNew1-18/185_baseball/TRAIN/dataset_TRAIN/datasetDoc.json'
+problem_schema = 'dsbox-dataNew1-18/185_baseball/TRAIN/problem_TRAIN/problemDoc.json'
+problem_root = 'dsbox-dataNew1-18/185_baseball/TRAIN/problem_TRAIN'
+test_data_root = 'dsbox-dataNew1-18/185_baseball/TRAIN/dataset_TRAIN'
+results_root = '/Users/chenling/Desktop/DSBOX/P4ML-UI/dsbox-ta2/python/dsbox-dataNew1-18/executables/185_baseball/results'
+executables_root = curdir
+temp_storage_root = 'dsbox-dataNew1-18/executables/185_baseball/temp'
+numcpus = 10
+timeout = 5*60
+ram = '16Gi'
+
+config = {}
+if len(sys.argv) > 1:
+    with open(sys.argv[1]) as conf_data:
+        config = json.load(conf_data)
+        conf_data.close()
+if config.get('dataset_schema', None) is not None:
+    dataset_schema = config['dataset_schema']
+if config.get('problem_schema', None) is not None:
+    problem_schema = config['problem_schema']
+if config.get('test_data_root', None) is not None:
+    test_data_root = config['test_data_root']
+if config.get('results_root', None) is not None:
+    results_root = config['results_root']
+if config.get('executables_root', None) is not None:
+    executables_root = config['executables_root']
+if config.get('temp_storage_root', None) is not None:
+    temp_storage_root = config['temp_storage_root']
+predictions_file = os.path.join(results_root, 'predictions.csv')
+scores_file = os.path.join(results_root, 'scores.csv')
+
+problem = Problem()
+problem.load_problem(problem_root, problem_schema)
+
+dataset = Dataset()
+dataset.load_dataset(test_data_root, dataset_schema)
+
+data_manager = DataManager()
+data_manager.initialize_data(problem, [dataset], view='TEST')
+
+testdata = data_manager.input_data
+
+hp = ExecutionHelper(problem, data_manager)
+
+print('\nExecuting Label Encoder...')
+primfile = executables_root + '/models/3db7e093-b170-49fc-97e5-72d1249f9a27.primitive_1.pkl'
+primitive_1 = sklearn.externals.joblib.load(primfile)
+testdata = hp.test_execute_primitive(primitive_1, testdata)
+
+print('\nExecuting Imputer...')
+primfile = executables_root + '/models/3db7e093-b170-49fc-97e5-72d1249f9a27.primitive_2.pkl'
+primitive_2 = sklearn.externals.joblib.load(primfile)
+testdata = hp.test_execute_primitive(primitive_2, testdata)
+
+print('\nExecuting ExtraTreesClassifier...')
+primfile = executables_root + '/models/3db7e093-b170-49fc-97e5-72d1249f9a27.primitive_3.pkl'
+primitive_3 = sklearn.externals.joblib.load(primfile)
+
+print('\nStoring results in %s' % predictions_file)
+if not os.path.exists(results_root):
+    os.makedirs(results_root)
+result = pandas.DataFrame(primitive_3.executables.predict(testdata), index=testdata.index, columns=['Hall_of_Fame'])
+result.to_csv(predictions_file, index_label='d3mIndex')
