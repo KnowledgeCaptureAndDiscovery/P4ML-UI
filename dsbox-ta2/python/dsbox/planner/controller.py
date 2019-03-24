@@ -112,9 +112,9 @@ class Controller(object):
             self.imputation_flag = True
 
 
-        if restriction.get('replaced_model') :
-            self.replaced_model = restriction.get('replaced_model')
-            self.replaced_model_flag = True
+        if restriction.get('replace_model') :
+            self.replace_model = restriction.get('replace_model')
+            self.replace_model_flag = True
 
         # Redirect stderr to error file
         sys.stderr = self.errorfile
@@ -251,11 +251,17 @@ class Controller(object):
                 return
             self.exec_pipelines = []
 
-            
-        
+        if self.replace_model_flag == True:
+            replaced_model = self.replace_model.get("replaced_model")
+            new_model = self.replace_model.get("new_model")
+            print(replaced_model)
+            print(new_model)   
 
-    # print("new_pipelines: \n")
-    # print(l1_pipelines)
+            self.same_step_with_replaced_model(l1_pipelines, replaced_model, new_model)         
+            
+
+
+   
 
     # TODO: Do Pipeline Hyperparameter Tuning
 
@@ -340,18 +346,23 @@ class Controller(object):
             
 
 
-    def same_step_with_replaced_model(pipeline, replaced_model):
+    def same_step_with_replaced_model(self, pipeline, replaced_model, new_model):
         new_pipelines = []
-        pipeline_copy = pipeline.clone()
-        for elem in pipeline_copy:
+        # repaced_pipeline = []
+        # pipeline_copy = pipeline.clone()
+        for elem in pipeline:
+            primitive = elem.getPrimitiveAt(-1)
             for model in replaced_model:
-                cls = replaced_model
-                replaced = D3mPrimitive(cls)
-                print(replaced)
-                copy = elem.replacePrimitiveAt(-1,replaced)
-                new_pipelines.append(copy)
-        return new_pipelines
-            
+                if model == primitive.name:
+                    replaced_pipeline = elem
+                    pipeline.remove(replaced_pipeline)
+        for model in new_model:
+            #make a new primitive
+            # print()
+            cls = Primitives()
+            new_primitive = Primitive(model,cls)
+            replaced_pipeline.replacePrimitiveAt(-1, new_primitive)
+        return pipeline.append(replaced_pipeline)
 
 
     '''

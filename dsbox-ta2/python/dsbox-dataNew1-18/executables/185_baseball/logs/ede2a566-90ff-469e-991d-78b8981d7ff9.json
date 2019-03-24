@@ -1,0 +1,10 @@
+{
+    "name": "ede2a566-90ff-469e-991d-78b8981d7ff9",
+    "pipeline_rank": 6,
+    "primitives": [
+        "sklearn.preprocessing.LabelEncoder",
+        "sklearn.preprocessing.Imputer",
+        "sklearn.neighbors.classification.KNeighborsClassifier"
+    ],
+    "problem_id": "185_bl_problem_TRAIN"
+}
