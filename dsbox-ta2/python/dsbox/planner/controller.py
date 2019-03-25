@@ -93,9 +93,10 @@ class Controller(object):
         
         self.restriction = restriction
         self.model_name_flag = False
+        self.exclude_name_flag = False
         self.feature_extraction_flag = False
         self.imputation_flag = False
-        self.replaced_model_flag = False
+        self.replace_model_flag = False
 
 
 
@@ -115,6 +116,10 @@ class Controller(object):
         if restriction.get('replace_model') :
             self.replace_model = restriction.get('replace_model')
             self.replace_model_flag = True
+
+        if restriction.get('exclude_model') :
+            self.exclude_model = restriction.get('exclude_model')
+            self.exclude_model_flag = True
 
         # Redirect stderr to error file
         sys.stderr = self.errorfile
@@ -251,6 +256,10 @@ class Controller(object):
                 return
             self.exec_pipelines = []
 
+        if self.exclude_model_flag == True:
+            exclude_model = self.exclude_model
+            self.exclude_model_function(l1_pipelines, exclude_model)
+
         if self.replace_model_flag == True:
             replaced_model = self.replace_model.get("replaced_model")
             new_model = self.replace_model.get("new_model")
@@ -363,6 +372,16 @@ class Controller(object):
             new_primitive = Primitive(model,cls)
             replaced_pipeline.replacePrimitiveAt(-1, new_primitive)
         return pipeline.append(replaced_pipeline)
+
+    def exclude_model_function(self, pipeline, exclude_model):
+        new_pipelines = []
+        for elem in pipeline:
+            primitive = elem.getPrimitiveAt(-1)
+            for model in exclude_model:
+                if model == primitive.name:
+                    replaced_pipeline = elem
+                    pipeline.remove(replaced_pipeline)
+        return pipeline
 
 
     '''

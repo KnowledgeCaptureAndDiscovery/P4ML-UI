@@ -1,0 +1,9 @@
+
+{
+        "include_model":["DummyClassifier","LogisticRegression","DecisionTreeClassifier"],
+        "exclude_model":["DummyClassifier"],
+        "timeout": 50,
+        "cpus"  : "10",
+        "ram"   : "16Gi"
+}
+     

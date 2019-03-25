@@ -4,17 +4,13 @@ Data profile: {<DataProfileType.NUMERICAL: 'Numerical'>: False, <DataProfileType
 
 L1 Pipelines:
 -------------
-[[LinearDiscriminantAnalysis], [BaggingClassifier], [AdaBoostClassifier], [RandomForestClassifier], [GradientBoostingClassifier], [KNeighborsClassifier], [MultinomialNB], [Perceptron], [PassiveAggressiveClassifier], [SGDClassifier], [LogisticRegression], [LinearSVC], [MLPClassifier], [ExtraTreeClassifier], [RandomForestClassifier]]
+[[LogisticRegression], [DecisionTreeClassifier]]
 -------------
 
 L2 Pipelines:
 -------------
-[[Label Encoder, Imputer, LinearDiscriminantAnalysis], [Label Encoder, Imputer, BaggingClassifier], [Label Encoder, Imputer, AdaBoostClassifier], [Label Encoder, Imputer, RandomForestClassifier], [Label Encoder, Imputer, GradientBoostingClassifier], [Label Encoder, Imputer, KNeighborsClassifier], [Label Encoder, Imputer, MultinomialNB], [Label Encoder, Imputer, Perceptron], [Label Encoder, Imputer, PassiveAggressiveClassifier], [Label Encoder, Imputer, SGDClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC], [Label Encoder, Imputer, MLPClassifier], [Label Encoder, Imputer, ExtraTreeClassifier]]
+[[Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, DecisionTreeClassifier]]
 
 L2 Executed Pipelines:
 -------------
-[[Label Encoder, Imputer, LinearDiscriminantAnalysis], [Label Encoder, Imputer, AdaBoostClassifier], [Label Encoder, Imputer, RandomForestClassifier], [Label Encoder, Imputer, GradientBoostingClassifier], [Label Encoder, Imputer, BaggingClassifier], [Label Encoder, Imputer, KNeighborsClassifier], [Label Encoder, Imputer, ExtraTreeClassifier], [Label Encoder, Imputer, LogisticRegression], [Label Encoder, Imputer, LinearSVC], [Label Encoder, Imputer, MultinomialNB], [Label Encoder, Imputer, MLPClassifier]]
-
-Related L1 Pipelines to top 10 L2 Pipelines:
--------------
-[]
+[[Label Encoder, Imputer, DecisionTreeClassifier], [Label Encoder, Imputer, LogisticRegression]]
