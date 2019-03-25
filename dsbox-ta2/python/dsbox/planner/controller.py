@@ -93,7 +93,7 @@ class Controller(object):
         
         self.restriction = restriction
         self.model_name_flag = False
-        self.exclude_name_flag = False
+        self.exclude_model_flag = False
         self.feature_extraction_flag = False
         self.imputation_flag = False
         self.replace_model_flag = False
@@ -255,6 +255,11 @@ class Controller(object):
                 yield pe.ProblemNotImplemented()
                 return
             self.exec_pipelines = []
+
+        if self.feature_extraction_flag == True:
+            feature_extraction = self.feature_extraction
+            print(feature_extraction)
+            l1_pipelines = self.l1_planner.get_pipelines_by_feature_extration(df, feature_extraction)
 
         if self.exclude_model_flag == True:
             exclude_model = self.exclude_model

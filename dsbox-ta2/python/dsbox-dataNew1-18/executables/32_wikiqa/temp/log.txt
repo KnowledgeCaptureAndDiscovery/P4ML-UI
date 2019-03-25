@@ -1,3 +1,12 @@
 Task type: TaskType.CLASSIFICATION
 Metrics: [<Metric.F1: 'f1'>]
 Data profile: {<DataProfileType.NUMERICAL: 'Numerical'>: False, <DataProfileType.MISSING_VALUES: 'Missing Values'>: False, <DataProfileType.UNIQUE: 'Unique'>: False, <DataProfileType.NEGATIVE: 'Negative'>: False, <DataProfileType.TEXT: 'Text'>: True, <DataProfileType.LIST: 'List'>: False}
+
+L1 Pipelines:
+-------------
+[[TfidfVectorizer, LinearDiscriminantAnalysis], [TfidfVectorizer, DummyClassifier], [TfidfVectorizer, BaggingClassifier], [TfidfVectorizer, AdaBoostClassifier], [TfidfVectorizer, ExtraTreesClassifier], [TfidfVectorizer, GradientBoostingClassifier], [TfidfVectorizer, RadiusNeighborsClassifier], [TfidfVectorizer, BernoulliNB], [TfidfVectorizer, Perceptron], [TfidfVectorizer, PassiveAggressiveClassifier], [TfidfVectorizer, SGDClassifier], [TfidfVectorizer, SVC], [TfidfVectorizer, MLPClassifier], [TfidfVectorizer, DecisionTreeClassifier]]
+-------------
+
+L2 Pipelines:
+-------------
+[[TfidfVectorizer, Label Encoder, LinearDiscriminantAnalysis], [TfidfVectorizer, Label Encoder, DummyClassifier], [TfidfVectorizer, Label Encoder, BaggingClassifier], [TfidfVectorizer, Label Encoder, AdaBoostClassifier], [TfidfVectorizer, Label Encoder, ExtraTreesClassifier], [TfidfVectorizer, Label Encoder, GradientBoostingClassifier], [TfidfVectorizer, Label Encoder, RadiusNeighborsClassifier], [TfidfVectorizer, Label Encoder, BernoulliNB], [TfidfVectorizer, Label Encoder, Perceptron], [TfidfVectorizer, Label Encoder, PassiveAggressiveClassifier], [TfidfVectorizer, Label Encoder, SGDClassifier], [TfidfVectorizer, Label Encoder, SVC], [TfidfVectorizer, Label Encoder, MLPClassifier], [TfidfVectorizer, Label Encoder, DecisionTreeClassifier]]

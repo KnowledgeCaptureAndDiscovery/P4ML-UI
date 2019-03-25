@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/util.py", line 262, in _run_finalizers
+    finalizer()
+  File "/anaconda3/lib/python3.6/multiprocessing/util.py", line 186, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 571, in _terminate_pool
+    cls._help_stuff_finish(inqueue, task_handler, len(pool))
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 558, in _help_stuff_finish
+    inqueue._reader.recv()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 251, in recv
+    return _ForkingPickler.loads(buf.getbuffer())
+_pickle.UnpicklingError: invalid load key, ','.
