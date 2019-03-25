@@ -20,9 +20,9 @@ This document explains the schema in restriction file of human-guided machine le
 ### Restriction Schema
 -	include_model [status: implemented]
      - Definition: this flag allows you to customize the model being included in the solution pipelines.
-     - assumption
      - Parameters: Array with the ids of the primitive models to be included. All primitives have to be registered as part of the primitive library of the TA2 system. 
      - Default value: if empty, the TA2 system will explore all possible pipelines.
+     - If include_model and exclude_model has the same models, the TA2 system will explore all possible pipelines.
      - Example: "include_model":["LinearSVC","LogisticRegression"]
 
 -	exclude_model [status: implemented]
@@ -40,9 +40,15 @@ This document explains the schema in restriction file of human-guided machine le
 
 -	use_imputation_method [status: implemented]
      - Definition: this flag allows you to use specific imputation method for missing values
-     - Parameters: Array with the imputation method names. All primitives have to be registered as part of the primitive library of the TA2 system.
+     - Parameters: imputation method name. All primitives have to be registered as part of the primitive library of the TA2 system.
      - Default value: if empty, the TA2 system will use “mean” to impute missing values.
-     - Example: "use_imputation_method":["median","most frequent"]
+     - Example: "use_imputation_method":"median"/"most frequent"
+     
+ -	replace_model [status: implemented]
+     - Definition: this flag allows you to have two or more solutions with different models but same other steps.
+     - Parameters: Array contains the model you want to replace. 
+     - Default value: if empty, the TA2 system will explore all possible pipelines
+     - Example: "replace_model": {“replace_model”: [“LogisticRegression”],”new_model”:[“RandomForestClassifier”]}
 
 -	include_variables [status: not implemented]
      - Definition: this flag allows you to customize the variables (columns) being included in the solution.
@@ -79,12 +85,6 @@ This document explains the schema in restriction file of human-guided machine le
      - Parameters: dictionary includes the ids of instances to be the training and testing data, with optional cross-validation method 
      - Default value: if empty, the TA2 system will use the default method to get training and testing data.
      - Example: "select_training_and_testing_data":{“training_data“:(1,1000) ,”testing_data”:(1001,1200), “cross_validation”:”k fold”}
-
--	replace_model [status: not implemented]
-     - Definition: this flag allows you to have two or more solutions with different models but same other steps.
-     - Parameters: Array contains the model you want to replace. 
-     - Default value: if empty, the TA2 system will explore all possible pipelines
-     - Example: "replace_model": {“replace_model”: [“LogisticRegression”],”new_model”:[“RandomForestClassifier”]}
 
 -	use_specific_parameter_for_model [status: not implemented]
      - Definition: this flag allows you to specify a model and the parameter values desired
