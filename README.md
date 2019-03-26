@@ -44,7 +44,7 @@ This document explains the schema in restriction file of human-guided machine le
      - Default value: if empty, the TA2 system will use “mean” to impute missing values.
      - Example: "use_imputation_method":"median"/"most frequent"
      
- -	replace_model [status: implemented]
+ -	replace_model [status: ongoing]
      - Definition: this flag allows you to have two or more solutions with different models but same other steps.
      - Parameters: Array contains the model you want to replace. 
      - Default value: if empty, the TA2 system will explore all possible pipelines
