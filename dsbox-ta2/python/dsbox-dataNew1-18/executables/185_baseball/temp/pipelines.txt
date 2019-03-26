@@ -1,3 +1,0 @@
-# Pipelines ranked by metrics ([<Metric.F1_MACRO: 'f1Macro'>])
-ee554c4d-e287-4e6f-b8c2-6405eb4e6e1b ( [Label Encoder, Imputer, DecisionTreeClassifier] ) : ['F1_MACRO = 0.5918']
-69816946-b3f6-44b8-b336-334ea06044aa ( [Label Encoder, Imputer, LogisticRegression] ) : ['F1_MACRO = 0.5676']
