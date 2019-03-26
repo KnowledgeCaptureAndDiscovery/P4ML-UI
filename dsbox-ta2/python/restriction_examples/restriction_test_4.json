@@ -1,0 +1,8 @@
+
+{
+        "replace_model":{"replaced_model":["DummyClassifier"],"new_model":["RandomForestClassifier"]},
+        "timeout": 50,
+        "cpus"  : "10",
+        "ram"   : "16Gi"
+}
+     

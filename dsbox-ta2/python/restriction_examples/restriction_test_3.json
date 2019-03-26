@@ -1,0 +1,8 @@
+
+{
+        "include_feature_extraction":["TfidfVectorizer"],
+        "timeout": 50,
+        "cpus"  : "10",
+        "ram"   : "16Gi"
+}
+     

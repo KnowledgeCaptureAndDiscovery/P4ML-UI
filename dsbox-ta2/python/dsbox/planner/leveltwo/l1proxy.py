@@ -154,6 +154,36 @@ class LevelOnePlannerProxy(object):
         except Exception as e:
             return None
 
+    def get_pipelines_by_feature_extration(self, data, feature_extraction):
+        try:
+            # print(models)
+            l1_pipelines = self.l1_planner.generate_pipelines_with_hierarchy(level=2)
+            # print(l1_pipelines)
+
+            # If there is a media type, use featurisation-added pipes instead
+            # kyao: added check to skip if media_type is nested tables
+            if self.media_type and not (self.media_type==VariableFileType.TABULAR or self.media_type==VariableFileType.GRAPH):
+                new_pipes = []
+                for l1_pipeline in l1_pipelines:
+                    refined_pipes = self.l1_planner.fill_feature_by_particular_method(l1_pipeline, feature_extraction, 1)
+                    # print(refined_pipes)
+                    new_pipes = new_pipes + refined_pipes
+                l1_pipelines = new_pipes
+
+
+
+            pipelines = []
+            for l1_pipeline in l1_pipelines:
+                # print(l1_pipeline)
+                pipeline = self.l1_to_proxy_pipeline_new(l1_pipeline)
+                if pipeline:
+                    self.pipeline_hash[str(pipeline)] = l1_pipeline
+                    pipelines.append(pipeline)
+            # print(pipelines)
+            return pipelines
+        except Exception as e:
+            return None
+
 
     def l1_to_proxy_pipeline_new(self, l1_pipeline):
         pipeline = Pipeline()

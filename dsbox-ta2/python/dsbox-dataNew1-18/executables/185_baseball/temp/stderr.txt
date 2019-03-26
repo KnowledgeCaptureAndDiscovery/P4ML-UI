@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "ta2-search", line 93, in <module>
-    sys.exit(main())
-  File "ta2-search", line 82, in main
-    for result in controller.train(PlannerEventHandler()):
-  File "/Users/chenling/Desktop/DSBOX/dsbox/dsbox-ta2/python/dsbox/planner/controller.py", line 307, in train
-    if model_name_flag == False:
-NameError: name 'model_name_flag' is not defined

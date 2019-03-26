@@ -29,6 +29,7 @@ class ResourceManager(object):
         pipeline_refs = []
         exec_pipelines = []
         for pipeline in pipelines:
+            print(pipeline)
             pipeline_refs.append(self.execute_pipeline(pipeline, df, df_lbl))
         for pref in pipeline_refs:
             if pref is not None:
@@ -112,8 +113,7 @@ class ResourceManager(object):
                     cur_profile = DataProfile(df)
 
                     # Glue primitive
-                    df = self.helper.execute_primitive(
-                        primitive, copy.copy(df), df_lbl, cur_profile,  timeout=TIMEOUT)
+                    df = self.helper.execute_primitive(primitive, copy.copy(df), df_lbl, cur_profile)
                     self.execution_cache[cachekey] = df
                     self.primitive_cache[cachekey] = (primitive.executables, primitive.unified_interface)
 
@@ -131,7 +131,7 @@ class ResourceManager(object):
         pipeline_refs = []
         exec_pipelines = []
         for pipeline in pipelines:
-            pipeline_refs.append(self.execute_pipeline(pipeline, df, df_lbl,imputation))
+            pipeline_refs.append(self.execute_pipeline_imputation(pipeline, df, df_lbl,imputation))
         for pref in pipeline_refs:
             if pref is not None:
                 (exref, exec_pipeline, primitive, cachekey, newdf, newdf_lbl) = pref
@@ -214,8 +214,8 @@ class ResourceManager(object):
                     cur_profile = DataProfile(df)
 
                     # Glue primitive
-                    df = self.helper.execute_primitive(
-                        primitive, copy.copy(df), df_lbl, imputation, cur_profile,  timeout=TIMEOUT)
+                    df = self.helper.execute_primitive_imputation(
+                        primitive, copy.copy(df), df_lbl, imputation, cur_profile)
                     self.execution_cache[cachekey] = df
                     self.primitive_cache[cachekey] = (primitive.executables, primitive.unified_interface)
 
